@@ -2000,11 +2000,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="text_to_center inputData">
-                            Пожалуйста, введите ваши данные для входа в систему:
-                            <br>
-                            Техническая поддержка: 8(499)110-80-82, mskdoc.support@tatar.ru
-                        </td>
+                        
                     </tr>
                     <tr>
                         <td>
@@ -2042,8 +2038,7 @@
                                         <input id="password_input" type="password" length="10" placeholder="Пароль" class="has_placeholder" name="password">
                                     </div>
                                     <div class="password-cell">
-                                        <a href="javascript:coverManager.show()" class="passwordRecovery">Восстановление
-                                            пароля</a>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -2054,10 +2049,7 @@
                             <div class="errors-field"></div>
                         </td>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td class="ipAdr"><b>Ваш IP: 192.168.200.99</b></td>
-                    </tr>
+                    
                     <tr>
                         <td></td>
                         <td>
@@ -2077,95 +2069,7 @@ function login_form_CheckOff() { login_form_NoCheck=true }
     </div>
 </div>
 
-<!-- НАЧАЛО всплавающий блок памятки восстановления пароля -->
-<div class="cover" id="cover" style="display: none">
-    <div class="cover-win">
-        <div class="cover-title">
-            Памятка
-        </div>
-        <div class="cover-subtitle">
-            для восстановления доступа
-        </div>
-        <div class="cover-win-close" onclick="coverManager.hide()">
-            <img src="./Электронный документооборот_files/cover-close.png" width="31" height="31" alt="Закрыть">
-        </div>
-        <div class="cover-blank">
-            <div class="cover-blank-text">
-                Для восстановления доступа
-                пользователя необходимо направить
-                <div class="cover-blank-highlight">
-                    официальное письмо
-                </div>
-                на фирменном бланке Вашей организации за подписью
-                Руководителя или уполномоченного представителя
-                на имя Службы Технической Поддержки
-            </div>
-        </div>
-        <div class="cover-desc">
-            <div class="cover-desc-row">
-                В тексте письма следует указать:
-            </div>
-            <div class="cover-desc-row">
-                <ul class="cover-list">
-                    <li class="cover-list-item">
-                        ФИО (полностью) сотрудника, которому
-                        нужно восстановить доступ
-                    </li>
-                    <li class="cover-list-item">
-                        Адрес электронной почты (рабочий), по
-                        которому следует сообщить новые данные
-                        для входа в систему
-                    </li>
-                </ul>
-            </div>
-            <div class="cover-desc-row">
-                Письмо Вы можете отправить по системе
-                электронного документооборота
-            </div>
-        </div>
-        <div class="cover-foot">
-            <div class="cover-foot-wrap">
-                <div class="cover-phones">
-                    <div>Техническая поддержка:</div>
-                    <div>8(499)110-80-82</div>
-                    <div>mskdoc.support@tatar.ru</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cover-backdrop"></div>
-</div>
-<!-- КОНЕЦ всплавающий блок памятки восстановления пароля -->
-<script type="text/javascript">
 
-    function select_group(group_id) {
-        if (group_id > 0) {
-            $.ajax({
-                type: "POST",
-                url: window.location,
-                data: {gid: group_id},
-                success: function (data) {
-                    $("#logins").autocomplete({
-                        source: data,
-                        minLength: 0,
-                        select: function (event, ui) {
-                            $("#user_id").val(ui.item.id);
-                            $('#password_input').focus().click();
-                        }
-                    })
-                },
-                dataType: "json"
-            });
-        }
-    }
-
-    var p = document.getElementById('password');
-    if (p)
-        p.focus();
-
-    //чистим sessionStorage от предыдущего пользователя
-    sessionStorage.clear();
-</script>
 
 <div id="d_submenu" style="padding: 5px 15px 5px 15px;border:1px solid black; background-color: #D5DEF0; position:absolute; z-index: 21; display: none;">Sub menu</div><div id="resolutionPopup" class="axUIPopup"></div><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all organisations UI_List_organizations" id="ui-id-1" tabindex="0" style="z-index: 1; display: none; width: 328px; top: 393.484px; left: 834.594px;" aria-disabled="false"><li class="ui-menu-item" role="presentation"><a id="ui-id-13" class="ui-corner-all" tabindex="-1"></a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-14" class="ui-corner-all" tabindex="-1">Алтайский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-15" class="ui-corner-all" tabindex="-1">Анадырский центр ОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-16" class="ui-corner-all" tabindex="-1">Архангельский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-17" class="ui-corner-all" tabindex="-1">Астраханский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-18" class="ui-corner-all" tabindex="-1">Батагайский центр ОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-19" class="ui-corner-all" tabindex="-1">Башкирский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-20" class="ui-corner-all" tabindex="-1">Белгородский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-21" class="ui-corner-all" tabindex="-1">Белоярское отделение</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-22" class="ui-corner-all" tabindex="-1">Березовское отделение</a></li></ul><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all logins UI_List_logins" id="ui-id-2" tabindex="0" style="z-index: 1; display: none; width: 328px; top: 428.484px; left: 834.594px;" aria-disabled="false"><li class="ui-menu-item" role="presentation"><a id="ui-id-3" class="ui-corner-all" tabindex="-1">Автамонов М.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-4" class="ui-corner-all" tabindex="-1">Агеенко О.В.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-5" class="ui-corner-all" tabindex="-1">Аникин Д.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-6" class="ui-corner-all" tabindex="-1">Арнаутов А.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-7" class="ui-corner-all" tabindex="-1">Баженов А.С.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-8" class="ui-corner-all" tabindex="-1">Баранов А.Р.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-9" class="ui-corner-all" tabindex="-1">Баринберг И.К.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-10" class="ui-corner-all" tabindex="-1">Бачило В.С.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-11" class="ui-corner-all" tabindex="-1">Белкин А.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-12" class="ui-corner-all" tabindex="-1">Белова О.В.</a></li></ul><div data-v-a56fdf46="" data-v-08510fe8="" class="v-business-card" style="display: none;"><div data-v-a56fdf46="" class="v-business-card__content"><div data-v-08510fe8="" class="business-card__info"><div data-v-08510fe8="" class="business-card__section"><span data-v-08510fe8="" class="business-card__subtitle">Тип уведомления: </span>
             
