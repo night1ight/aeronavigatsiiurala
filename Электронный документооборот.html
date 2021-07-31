@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://doc.matfmc.ru/auth.php?uri=%2F -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <style data-tippy-stylesheet="">.tippy-tooltip[data-animation=fade][data-state=hidden]{opacity:0}.tippy-iOS{cursor:pointer!important;-webkit-tap-highlight-color:transparent}.tippy-popper{pointer-events:none;max-width:calc(100vw - 10px);transition-timing-function:cubic-bezier(.165,.84,.44,1);transition-property:transform}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;background-color:#333;transition-property:visibility,opacity,transform;outline:0}.tippy-tooltip[data-placement^=top]>.tippy-arrow{border-width:8px 8px 0;border-top-color:#333;margin:0 3px;transform-origin:50% 0;bottom:-7px}.tippy-tooltip[data-placement^=bottom]>.tippy-arrow{border-width:0 8px 8px;border-bottom-color:#333;margin:0 3px;transform-origin:50% 7px;top:-7px}.tippy-tooltip[data-placement^=left]>.tippy-arrow{border-width:8px 0 8px 8px;border-left-color:#333;margin:3px 0;transform-origin:0 50%;right:-7px}.tippy-tooltip[data-placement^=right]>.tippy-arrow{border-width:8px 8px 8px 0;border-right-color:#333;margin:3px 0;transform-origin:7px 50%;left:-7px}.tippy-tooltip[data-interactive][data-state=visible]{pointer-events:auto}.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{position:absolute;border-color:transparent;border-style:solid}.tippy-content{padding:5px 9px}</style><link rel="icon" type="image/png" href="https://doc.matfmc.ru/design/custom/orvd/favicon.png">
+    <title>Электронный документооборот</title>
+    
+    <meta name="msapplication-config" content="none">
+    <link href="./Электронный документооборот_files/reset.css" rel="stylesheet">
+    <link href="./Электронный документооборот_files/jquery.ui.autocomplete.css" rel="stylesheet">
+    <link href="./Электронный документооборот_files/layout.css" rel="stylesheet">
+    <link href="./Электронный документооборот_files/reset_pass_block.css" rel="stylesheet">
+    <script src="./Электронный документооборот_files/reset_pass_block.js"></script><style>@media print {#ghostery-tracker-tally {display:none !important}}</style>
+                <script type="text/javascript" src="./Электронный документооборот_files/map.php"></script><style type="text/css"></style><style type="text/css">@charset "UTF-8";.el-checkbox,.el-checkbox__input{white-space:nowrap;display:inline-block;position:relative}.el-checkbox{color:#606266;font-weight:500;font-size:14px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;margin-right:30px}.el-checkbox.is-bordered{padding:9px 20px 9px 10px;border-radius:4px;border:1px solid #DCDFE6;-webkit-box-sizing:border-box;box-sizing:border-box;line-height:normal;height:40px}.el-checkbox.is-bordered.is-checked{border-color:#409EFF}.el-checkbox.is-bordered.is-disabled{border-color:#EBEEF5;cursor:not-allowed}.el-checkbox.is-bordered+.el-checkbox.is-bordered{margin-left:10px}.el-checkbox.is-bordered.el-checkbox--medium{padding:7px 20px 7px 10px;border-radius:4px;height:36px}.el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__label{line-height:17px;font-size:14px}.el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__inner{height:14px;width:14px}.el-checkbox.is-bordered.el-checkbox--small{padding:5px 15px 5px 10px;border-radius:3px;height:32px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__label{line-height:15px;font-size:12px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner{height:12px;width:12px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner::after{height:6px;width:2px}.el-checkbox.is-bordered.el-checkbox--mini{padding:3px 15px 3px 10px;border-radius:3px;height:28px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__label{line-height:12px;font-size:12px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner{height:12px;width:12px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner::after{height:6px;width:2px}.el-checkbox__input{cursor:pointer;outline:0;line-height:1;vertical-align:middle}.el-checkbox__input.is-disabled .el-checkbox__inner{background-color:#edf2fc;border-color:#DCDFE6;cursor:not-allowed}.el-checkbox__input.is-disabled .el-checkbox__inner::after{cursor:not-allowed;border-color:#C0C4CC}.el-checkbox__input.is-disabled .el-checkbox__inner+.el-checkbox__label{cursor:not-allowed}.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner{background-color:#F2F6FC;border-color:#DCDFE6}.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after{border-color:#C0C4CC}.el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner{background-color:#F2F6FC;border-color:#DCDFE6}.el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner::before{background-color:#C0C4CC;border-color:#C0C4CC}.el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner{background-color:#409EFF;border-color:#409EFF}.el-checkbox__input.is-disabled+span.el-checkbox__label{color:#C0C4CC;cursor:not-allowed}.el-checkbox__input.is-checked .el-checkbox__inner::after{-webkit-transform:rotate(45deg) scaleY(1);transform:rotate(45deg) scaleY(1)}.el-checkbox__input.is-checked+.el-checkbox__label{color:#409EFF}.el-checkbox__input.is-focus .el-checkbox__inner{border-color:#409EFF}.el-checkbox__input.is-indeterminate .el-checkbox__inner::before{content:'';position:absolute;display:block;background-color:#FFF;height:2px;-webkit-transform:scale(.5);transform:scale(.5);left:0;right:0;top:5px}.el-checkbox__input.is-indeterminate .el-checkbox__inner::after{display:none}.el-checkbox__inner{display:inline-block;position:relative;border:1px solid #DCDFE6;border-radius:2px;-webkit-box-sizing:border-box;box-sizing:border-box;width:14px;height:14px;background-color:#FFF;z-index:1;-webkit-transition:border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46);transition:border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46)}.el-checkbox__inner:hover{border-color:#409EFF}.el-checkbox__inner::after{-webkit-box-sizing:content-box;box-sizing:content-box;content:"";border:1px solid #FFF;border-left:0;border-top:0;height:7px;left:4px;position:absolute;top:1px;-webkit-transform:rotate(45deg) scaleY(0);transform:rotate(45deg) scaleY(0);width:3px;-webkit-transition:-webkit-transform .15s ease-in .05s;transition:-webkit-transform .15s ease-in .05s;transition:transform .15s ease-in .05s;transition:transform .15s ease-in .05s,-webkit-transform .15s ease-in .05s;-webkit-transform-origin:center;transform-origin:center}.el-checkbox-button__inner,.el-tag{-webkit-box-sizing:border-box;white-space:nowrap}.el-checkbox__original{opacity:0;outline:0;position:absolute;margin:0;width:0;height:0;z-index:-1}.el-checkbox-button,.el-checkbox-button__inner{position:relative;display:inline-block}.el-checkbox__label{display:inline-block;padding-left:10px;line-height:19px;font-size:14px}.el-checkbox:last-of-type{margin-right:0}.el-checkbox-button__inner{line-height:1;font-weight:500;vertical-align:middle;cursor:pointer;background:#FFF;border:1px solid #DCDFE6;border-left:0;color:#606266;-webkit-appearance:none;text-align:center;box-sizing:border-box;outline:0;margin:0;-webkit-transition:all .3s cubic-bezier(.645,.045,.355,1);transition:all .3s cubic-bezier(.645,.045,.355,1);-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;padding:12px 20px;font-size:14px;border-radius:0}.el-checkbox-button__inner.is-round{padding:12px 20px}.el-checkbox-button__inner:hover{color:#409EFF}.el-checkbox-button__inner [class*=el-icon-]{line-height:.9}.el-checkbox-button__inner [class*=el-icon-]+span{margin-left:5px}.el-checkbox-button__original{opacity:0;outline:0;position:absolute;margin:0;z-index:-1}.el-checkbox-button.is-checked .el-checkbox-button__inner{color:#FFF;background-color:#409EFF;border-color:#409EFF;-webkit-box-shadow:-1px 0 0 0 #8cc5ff;box-shadow:-1px 0 0 0 #8cc5ff}.el-checkbox-button.is-checked:first-child .el-checkbox-button__inner{border-left-color:#409EFF}.el-checkbox-button.is-disabled .el-checkbox-button__inner{color:#C0C4CC;cursor:not-allowed;background-image:none;background-color:#FFF;border-color:#EBEEF5;-webkit-box-shadow:none;box-shadow:none}.el-checkbox-button.is-disabled:first-child .el-checkbox-button__inner{border-left-color:#EBEEF5}.el-checkbox-button:first-child .el-checkbox-button__inner{border-left:1px solid #DCDFE6;border-radius:4px 0 0 4px;-webkit-box-shadow:none!important;box-shadow:none!important}.el-checkbox-button.is-focus .el-checkbox-button__inner{border-color:#409EFF}.el-checkbox-button:last-child .el-checkbox-button__inner{border-radius:0 4px 4px 0}.el-checkbox-button--medium .el-checkbox-button__inner{padding:10px 20px;font-size:14px;border-radius:0}.el-checkbox-button--medium .el-checkbox-button__inner.is-round{padding:10px 20px}.el-checkbox-button--small .el-checkbox-button__inner{padding:9px 15px;font-size:12px;border-radius:0}.el-checkbox-button--small .el-checkbox-button__inner.is-round{padding:9px 15px}.el-checkbox-button--mini .el-checkbox-button__inner{padding:7px 15px;font-size:12px;border-radius:0}.el-checkbox-button--mini .el-checkbox-button__inner.is-round{padding:7px 15px}.el-checkbox-group{font-size:0}.el-tag{background-color:#ecf5ff;border-color:#d9ecff;display:inline-block;height:32px;padding:0 10px;line-height:30px;font-size:12px;color:#409EFF;border-width:1px;border-style:solid;border-radius:4px;box-sizing:border-box}.el-tag.is-hit{border-color:#409EFF}.el-tag .el-tag__close{color:#409eff}.el-tag .el-tag__close:hover{color:#FFF;background-color:#409eff}.el-tag.el-tag--info{background-color:#f4f4f5;border-color:#e9e9eb;color:#909399}.el-tag.el-tag--info.is-hit{border-color:#909399}.el-tag.el-tag--info .el-tag__close{color:#909399}.el-tag.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#909399}.el-tag.el-tag--success{background-color:#f0f9eb;border-color:#e1f3d8;color:#67c23a}.el-tag.el-tag--success.is-hit{border-color:#67C23A}.el-tag.el-tag--success .el-tag__close{color:#67c23a}.el-tag.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#67c23a}.el-tag.el-tag--warning{background-color:#fdf6ec;border-color:#faecd8;color:#e6a23c}.el-tag.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag.el-tag--warning .el-tag__close{color:#e6a23c}.el-tag.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#e6a23c}.el-tag.el-tag--danger{background-color:#fef0f0;border-color:#fde2e2;color:#f56c6c}.el-tag.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag.el-tag--danger .el-tag__close{color:#f56c6c}.el-tag.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f56c6c}.el-tag .el-icon-close{border-radius:50%;text-align:center;position:relative;cursor:pointer;font-size:12px;height:16px;width:16px;line-height:16px;vertical-align:middle;top:-1px;right:-5px}.el-tag .el-icon-close::before{display:block}.el-tag--dark{background-color:#409eff;border-color:#409eff;color:#fff}.el-tag--dark.is-hit{border-color:#409EFF}.el-tag--dark .el-tag__close{color:#fff}.el-tag--dark .el-tag__close:hover{color:#FFF;background-color:#66b1ff}.el-tag--dark.el-tag--info{background-color:#909399;border-color:#909399;color:#fff}.el-tag--dark.el-tag--info.is-hit{border-color:#909399}.el-tag--dark.el-tag--info .el-tag__close{color:#fff}.el-tag--dark.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#a6a9ad}.el-tag--dark.el-tag--success{background-color:#67c23a;border-color:#67c23a;color:#fff}.el-tag--dark.el-tag--success.is-hit{border-color:#67C23A}.el-tag--dark.el-tag--success .el-tag__close{color:#fff}.el-tag--dark.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#85ce61}.el-tag--dark.el-tag--warning{background-color:#e6a23c;border-color:#e6a23c;color:#fff}.el-tag--dark.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag--dark.el-tag--warning .el-tag__close{color:#fff}.el-tag--dark.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#ebb563}.el-tag--dark.el-tag--danger{background-color:#f56c6c;border-color:#f56c6c;color:#fff}.el-tag--dark.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag--dark.el-tag--danger .el-tag__close{color:#fff}.el-tag--dark.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f78989}.el-tag--plain{background-color:#fff;border-color:#b3d8ff;color:#409eff}.el-tag--plain.is-hit{border-color:#409EFF}.el-tag--plain .el-tag__close{color:#409eff}.el-tag--plain .el-tag__close:hover{color:#FFF;background-color:#409eff}.el-tag--plain.el-tag--info{background-color:#fff;border-color:#d3d4d6;color:#909399}.el-tag--plain.el-tag--info.is-hit{border-color:#909399}.el-tag--plain.el-tag--info .el-tag__close{color:#909399}.el-tag--plain.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#909399}.el-tag--plain.el-tag--success{background-color:#fff;border-color:#c2e7b0;color:#67c23a}.el-tag--plain.el-tag--success.is-hit{border-color:#67C23A}.el-tag--plain.el-tag--success .el-tag__close{color:#67c23a}.el-tag--plain.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#67c23a}.el-tag--plain.el-tag--warning{background-color:#fff;border-color:#f5dab1;color:#e6a23c}.el-tag--plain.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag--plain.el-tag--warning .el-tag__close{color:#e6a23c}.el-tag--plain.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#e6a23c}.el-tag--plain.el-tag--danger{background-color:#fff;border-color:#fbc4c4;color:#f56c6c}.el-tag--plain.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag--plain.el-tag--danger .el-tag__close{color:#f56c6c}.el-tag--plain.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f56c6c}.el-tag--medium{height:28px;line-height:26px}.el-tag--medium .el-icon-close{-webkit-transform:scale(.8);transform:scale(.8)}.el-tag--small{height:24px;padding:0 8px;line-height:22px}.el-tag--small .el-icon-close{-webkit-transform:scale(.8);transform:scale(.8)}.el-tag--mini{height:20px;padding:0 5px;line-height:19px}.el-tag--mini .el-icon-close{margin-left:-3px;-webkit-transform:scale(.7);transform:scale(.7)}.el-table-column--selection .cell{padding-left:14px;padding-right:14px}.el-table-filter{border:1px solid #EBEEF5;border-radius:2px;background-color:#FFF;-webkit-box-shadow:0 2px 12px 0 rgba(0,0,0,.1);box-shadow:0 2px 12px 0 rgba(0,0,0,.1);-webkit-box-sizing:border-box;box-sizing:border-box;margin:2px 0}.el-table-filter__list{padding:5px 0;margin:0;list-style:none;min-width:100px}.el-table-filter__list-item{line-height:36px;padding:0 10px;cursor:pointer;font-size:14px}.el-table-filter__list-item:hover{background-color:#ecf5ff;color:#66b1ff}.el-table-filter__list-item.is-active{background-color:#409EFF;color:#FFF}.el-table-filter__content{min-width:100px}.el-table-filter__bottom{border-top:1px solid #EBEEF5;padding:8px}.el-table-filter__bottom button{background:0 0;border:none;color:#606266;cursor:pointer;font-size:13px;padding:0 3px}.el-table-filter__bottom button:hover{color:#409EFF}.el-table-filter__bottom button:focus{outline:0}.el-table-filter__bottom button.is-disabled{color:#C0C4CC;cursor:not-allowed}.el-table-filter__wrap{max-height:280px}.el-table-filter__checkbox-group{padding:10px}.el-table-filter__checkbox-group label.el-checkbox{display:block;margin-right:5px;margin-bottom:8px;margin-left:5px}.el-table-filter__checkbox-group .el-checkbox:last-child{margin-bottom:0}</style><style type="text/css">@charset "UTF-8";.el-checkbox,.el-checkbox__input{display:inline-block;position:relative;white-space:nowrap}.el-table,.el-table__append-wrapper{overflow:hidden}.el-table td.is-hidden>*,.el-table th.is-hidden>*,.el-table--hidden{visibility:hidden}.el-checkbox{color:#606266;font-weight:500;font-size:14px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;margin-right:30px}.el-checkbox-button__inner,.el-table th{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.el-checkbox.is-bordered{padding:9px 20px 9px 10px;border-radius:4px;border:1px solid #DCDFE6;-webkit-box-sizing:border-box;box-sizing:border-box;line-height:normal;height:40px}.el-checkbox.is-bordered.is-checked{border-color:#409EFF}.el-checkbox.is-bordered.is-disabled{border-color:#EBEEF5;cursor:not-allowed}.el-checkbox.is-bordered+.el-checkbox.is-bordered{margin-left:10px}.el-checkbox.is-bordered.el-checkbox--medium{padding:7px 20px 7px 10px;border-radius:4px;height:36px}.el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__label{line-height:17px;font-size:14px}.el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__inner{height:14px;width:14px}.el-checkbox.is-bordered.el-checkbox--small{padding:5px 15px 5px 10px;border-radius:3px;height:32px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__label{line-height:15px;font-size:12px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner{height:12px;width:12px}.el-checkbox.is-bordered.el-checkbox--small .el-checkbox__inner::after{height:6px;width:2px}.el-checkbox.is-bordered.el-checkbox--mini{padding:3px 15px 3px 10px;border-radius:3px;height:28px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__label{line-height:12px;font-size:12px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner{height:12px;width:12px}.el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__inner::after{height:6px;width:2px}.el-checkbox__input{cursor:pointer;outline:0;line-height:1;vertical-align:middle}.el-checkbox__input.is-disabled .el-checkbox__inner{background-color:#edf2fc;border-color:#DCDFE6;cursor:not-allowed}.el-checkbox__input.is-disabled .el-checkbox__inner::after{cursor:not-allowed;border-color:#C0C4CC}.el-checkbox__input.is-disabled .el-checkbox__inner+.el-checkbox__label{cursor:not-allowed}.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner{background-color:#F2F6FC;border-color:#DCDFE6}.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after{border-color:#C0C4CC}.el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner{background-color:#F2F6FC;border-color:#DCDFE6}.el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner::before{background-color:#C0C4CC;border-color:#C0C4CC}.el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner{background-color:#409EFF;border-color:#409EFF}.el-checkbox__input.is-disabled+span.el-checkbox__label{color:#C0C4CC;cursor:not-allowed}.el-checkbox__input.is-checked .el-checkbox__inner::after{-webkit-transform:rotate(45deg) scaleY(1);transform:rotate(45deg) scaleY(1)}.el-checkbox__input.is-checked+.el-checkbox__label{color:#409EFF}.el-checkbox__input.is-focus .el-checkbox__inner{border-color:#409EFF}.el-checkbox__input.is-indeterminate .el-checkbox__inner::before{content:'';position:absolute;display:block;background-color:#FFF;height:2px;-webkit-transform:scale(.5);transform:scale(.5);left:0;right:0;top:5px}.el-checkbox__input.is-indeterminate .el-checkbox__inner::after{display:none}.el-checkbox__inner{display:inline-block;position:relative;border:1px solid #DCDFE6;border-radius:2px;-webkit-box-sizing:border-box;box-sizing:border-box;width:14px;height:14px;background-color:#FFF;z-index:1;-webkit-transition:border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46);transition:border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46)}.el-checkbox__inner:hover{border-color:#409EFF}.el-checkbox__inner::after{-webkit-box-sizing:content-box;box-sizing:content-box;content:"";border:1px solid #FFF;border-left:0;border-top:0;height:7px;left:4px;position:absolute;top:1px;-webkit-transform:rotate(45deg) scaleY(0);transform:rotate(45deg) scaleY(0);width:3px;-webkit-transition:-webkit-transform .15s ease-in .05s;transition:-webkit-transform .15s ease-in .05s;transition:transform .15s ease-in .05s;transition:transform .15s ease-in .05s,-webkit-transform .15s ease-in .05s;-webkit-transform-origin:center;transform-origin:center}.el-checkbox__original{opacity:0;outline:0;position:absolute;margin:0;width:0;height:0;z-index:-1}.el-checkbox-button,.el-checkbox-button__inner{position:relative;display:inline-block}.el-checkbox__label{display:inline-block;padding-left:10px;line-height:19px;font-size:14px}.el-checkbox:last-of-type{margin-right:0}.el-checkbox-button__inner{line-height:1;font-weight:500;white-space:nowrap;vertical-align:middle;cursor:pointer;background:#FFF;border:1px solid #DCDFE6;border-left:0;color:#606266;-webkit-appearance:none;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0;margin:0;-webkit-transition:all .3s cubic-bezier(.645,.045,.355,1);transition:all .3s cubic-bezier(.645,.045,.355,1);padding:12px 20px;font-size:14px;border-radius:0}.el-checkbox-button__inner.is-round{padding:12px 20px}.el-checkbox-button__inner:hover{color:#409EFF}.el-checkbox-button__inner [class*=el-icon-]{line-height:.9}.el-checkbox-button__inner [class*=el-icon-]+span{margin-left:5px}.el-checkbox-button__original{opacity:0;outline:0;position:absolute;margin:0;z-index:-1}.el-checkbox-button.is-checked .el-checkbox-button__inner{color:#FFF;background-color:#409EFF;border-color:#409EFF;-webkit-box-shadow:-1px 0 0 0 #8cc5ff;box-shadow:-1px 0 0 0 #8cc5ff}.el-checkbox-button.is-checked:first-child .el-checkbox-button__inner{border-left-color:#409EFF}.el-checkbox-button.is-disabled .el-checkbox-button__inner{color:#C0C4CC;cursor:not-allowed;background-image:none;background-color:#FFF;border-color:#EBEEF5;-webkit-box-shadow:none;box-shadow:none}.el-checkbox-button.is-disabled:first-child .el-checkbox-button__inner{border-left-color:#EBEEF5}.el-checkbox-button:first-child .el-checkbox-button__inner{border-left:1px solid #DCDFE6;border-radius:4px 0 0 4px;-webkit-box-shadow:none!important;box-shadow:none!important}.el-checkbox-button.is-focus .el-checkbox-button__inner{border-color:#409EFF}.el-checkbox-button:last-child .el-checkbox-button__inner{border-radius:0 4px 4px 0}.el-checkbox-button--medium .el-checkbox-button__inner{padding:10px 20px;font-size:14px;border-radius:0}.el-checkbox-button--medium .el-checkbox-button__inner.is-round{padding:10px 20px}.el-checkbox-button--small .el-checkbox-button__inner{padding:9px 15px;font-size:12px;border-radius:0}.el-checkbox-button--small .el-checkbox-button__inner.is-round{padding:9px 15px}.el-checkbox-button--mini .el-checkbox-button__inner{padding:7px 15px;font-size:12px;border-radius:0}.el-checkbox-button--mini .el-checkbox-button__inner.is-round{padding:7px 15px}.el-checkbox-group{font-size:0}.el-tag{background-color:#ecf5ff;border-color:#d9ecff;display:inline-block;height:32px;padding:0 10px;line-height:30px;font-size:12px;color:#409EFF;border-width:1px;border-style:solid;border-radius:4px;-webkit-box-sizing:border-box;box-sizing:border-box;white-space:nowrap}.el-tag.is-hit{border-color:#409EFF}.el-tag .el-tag__close{color:#409eff}.el-tag .el-tag__close:hover{color:#FFF;background-color:#409eff}.el-tag.el-tag--info{background-color:#f4f4f5;border-color:#e9e9eb;color:#909399}.el-tag.el-tag--info.is-hit{border-color:#909399}.el-tag.el-tag--info .el-tag__close{color:#909399}.el-tag.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#909399}.el-tag.el-tag--success{background-color:#f0f9eb;border-color:#e1f3d8;color:#67c23a}.el-tag.el-tag--success.is-hit{border-color:#67C23A}.el-tag.el-tag--success .el-tag__close{color:#67c23a}.el-tag.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#67c23a}.el-tag.el-tag--warning{background-color:#fdf6ec;border-color:#faecd8;color:#e6a23c}.el-tag.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag.el-tag--warning .el-tag__close{color:#e6a23c}.el-tag.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#e6a23c}.el-tag.el-tag--danger{background-color:#fef0f0;border-color:#fde2e2;color:#f56c6c}.el-tag.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag.el-tag--danger .el-tag__close{color:#f56c6c}.el-tag.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f56c6c}.el-tag .el-icon-close{border-radius:50%;text-align:center;position:relative;cursor:pointer;font-size:12px;height:16px;width:16px;line-height:16px;vertical-align:middle;top:-1px;right:-5px}.el-tag .el-icon-close::before{display:block}.el-tag--dark{background-color:#409eff;border-color:#409eff;color:#fff}.el-tag--dark.is-hit{border-color:#409EFF}.el-tag--dark .el-tag__close{color:#fff}.el-tag--dark .el-tag__close:hover{color:#FFF;background-color:#66b1ff}.el-tag--dark.el-tag--info{background-color:#909399;border-color:#909399;color:#fff}.el-tag--dark.el-tag--info.is-hit{border-color:#909399}.el-tag--dark.el-tag--info .el-tag__close{color:#fff}.el-tag--dark.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#a6a9ad}.el-tag--dark.el-tag--success{background-color:#67c23a;border-color:#67c23a;color:#fff}.el-tag--dark.el-tag--success.is-hit{border-color:#67C23A}.el-tag--dark.el-tag--success .el-tag__close{color:#fff}.el-tag--dark.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#85ce61}.el-tag--dark.el-tag--warning{background-color:#e6a23c;border-color:#e6a23c;color:#fff}.el-tag--dark.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag--dark.el-tag--warning .el-tag__close{color:#fff}.el-tag--dark.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#ebb563}.el-tag--dark.el-tag--danger{background-color:#f56c6c;border-color:#f56c6c;color:#fff}.el-tag--dark.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag--dark.el-tag--danger .el-tag__close{color:#fff}.el-tag--dark.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f78989}.el-tag--plain{background-color:#fff;border-color:#b3d8ff;color:#409eff}.el-tag--plain.is-hit{border-color:#409EFF}.el-tag--plain .el-tag__close{color:#409eff}.el-tag--plain .el-tag__close:hover{color:#FFF;background-color:#409eff}.el-tag--plain.el-tag--info{background-color:#fff;border-color:#d3d4d6;color:#909399}.el-tag--plain.el-tag--info.is-hit{border-color:#909399}.el-tag--plain.el-tag--info .el-tag__close{color:#909399}.el-tag--plain.el-tag--info .el-tag__close:hover{color:#FFF;background-color:#909399}.el-tag--plain.el-tag--success{background-color:#fff;border-color:#c2e7b0;color:#67c23a}.el-tag--plain.el-tag--success.is-hit{border-color:#67C23A}.el-tag--plain.el-tag--success .el-tag__close{color:#67c23a}.el-tag--plain.el-tag--success .el-tag__close:hover{color:#FFF;background-color:#67c23a}.el-tag--plain.el-tag--warning{background-color:#fff;border-color:#f5dab1;color:#e6a23c}.el-tag--plain.el-tag--warning.is-hit{border-color:#E6A23C}.el-tag--plain.el-tag--warning .el-tag__close{color:#e6a23c}.el-tag--plain.el-tag--warning .el-tag__close:hover{color:#FFF;background-color:#e6a23c}.el-tag--plain.el-tag--danger{background-color:#fff;border-color:#fbc4c4;color:#f56c6c}.el-tag--plain.el-tag--danger.is-hit{border-color:#F56C6C}.el-tag--plain.el-tag--danger .el-tag__close{color:#f56c6c}.el-tag--plain.el-tag--danger .el-tag__close:hover{color:#FFF;background-color:#f56c6c}.el-tag--medium{height:28px;line-height:26px}.el-tag--medium .el-icon-close{-webkit-transform:scale(.8);transform:scale(.8)}.el-tag--small{height:24px;padding:0 8px;line-height:22px}.el-tag--small .el-icon-close{-webkit-transform:scale(.8);transform:scale(.8)}.el-tag--mini{height:20px;padding:0 5px;line-height:19px}.el-tag--mini .el-icon-close{margin-left:-3px;-webkit-transform:scale(.7);transform:scale(.7)}.el-tooltip:focus:hover,.el-tooltip:focus:not(.focusing){outline-width:0}.el-tooltip__popper{position:absolute;border-radius:4px;padding:10px;z-index:2000;font-size:12px;line-height:1.2;min-width:10px;word-wrap:break-word}.el-tooltip__popper .popper__arrow,.el-tooltip__popper .popper__arrow::after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.el-tooltip__popper .popper__arrow{border-width:6px}.el-tooltip__popper .popper__arrow::after{content:" ";border-width:5px}.el-tooltip__popper[x-placement^=top]{margin-bottom:12px}.el-tooltip__popper[x-placement^=top] .popper__arrow{bottom:-6px;border-top-color:#303133;border-bottom-width:0}.el-tooltip__popper[x-placement^=top] .popper__arrow::after{bottom:1px;margin-left:-5px;border-top-color:#303133;border-bottom-width:0}.el-tooltip__popper[x-placement^=bottom]{margin-top:12px}.el-tooltip__popper[x-placement^=bottom] .popper__arrow{top:-6px;border-top-width:0;border-bottom-color:#303133}.el-tooltip__popper[x-placement^=bottom] .popper__arrow::after{top:1px;margin-left:-5px;border-top-width:0;border-bottom-color:#303133}.el-tooltip__popper[x-placement^=right]{margin-left:12px}.el-tooltip__popper[x-placement^=right] .popper__arrow{left:-6px;border-right-color:#303133;border-left-width:0}.el-tooltip__popper[x-placement^=right] .popper__arrow::after{bottom:-5px;left:1px;border-right-color:#303133;border-left-width:0}.el-tooltip__popper[x-placement^=left]{margin-right:12px}.el-tooltip__popper[x-placement^=left] .popper__arrow{right:-6px;border-right-width:0;border-left-color:#303133}.el-tooltip__popper[x-placement^=left] .popper__arrow::after{right:1px;bottom:-5px;margin-left:-5px;border-right-width:0;border-left-color:#303133}.el-tooltip__popper.is-dark{background:#303133;color:#FFF}.el-table,.el-table__expanded-cell{background-color:#FFF}.el-tooltip__popper.is-light{background:#FFF;border:1px solid #303133}.el-tooltip__popper.is-light[x-placement^=top] .popper__arrow{border-top-color:#303133}.el-tooltip__popper.is-light[x-placement^=top] .popper__arrow::after{border-top-color:#FFF}.el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow{border-bottom-color:#303133}.el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow::after{border-bottom-color:#FFF}.el-tooltip__popper.is-light[x-placement^=left] .popper__arrow{border-left-color:#303133}.el-tooltip__popper.is-light[x-placement^=left] .popper__arrow::after{border-left-color:#FFF}.el-tooltip__popper.is-light[x-placement^=right] .popper__arrow{border-right-color:#303133}.el-tooltip__popper.is-light[x-placement^=right] .popper__arrow::after{border-right-color:#FFF}.el-table{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:1;-ms-flex:1;flex:1;width:100%;max-width:100%;font-size:14px;color:#606266}.el-table--mini,.el-table--small,.el-table__expand-icon{font-size:12px}.el-table__empty-block{min-height:60px;text-align:center;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.el-table__empty-text{line-height:60px;width:50%;color:#909399}.el-table__expand-column .cell{padding:0;text-align:center}.el-table__expand-icon{position:relative;cursor:pointer;color:#666;-webkit-transition:-webkit-transform .2s ease-in-out;transition:-webkit-transform .2s ease-in-out;transition:transform .2s ease-in-out;transition:transform .2s ease-in-out,-webkit-transform .2s ease-in-out;height:20px}.el-table__expand-icon--expanded{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.el-table__expand-icon>.el-icon{position:absolute;left:50%;top:50%;margin-left:-5px;margin-top:-5px}.el-table__expanded-cell[class*=cell]{padding:20px 50px}.el-table__expanded-cell:hover{background-color:transparent!important}.el-table__placeholder{display:inline-block;width:20px}.el-table--fit{border-right:0;border-bottom:0}.el-table--fit td.gutter,.el-table--fit th.gutter{border-right-width:1px}.el-table--scrollable-x .el-table__body-wrapper{overflow-x:auto}.el-table--scrollable-y .el-table__body-wrapper{overflow-y:auto}.el-table thead{color:#909399;font-weight:500}.el-table thead.is-group th{background:#F5F7FA}.el-table th,.el-table tr{background-color:#FFF}.el-table td,.el-table th{padding:12px 0;min-width:0;-webkit-box-sizing:border-box;box-sizing:border-box;text-overflow:ellipsis;vertical-align:middle;position:relative;text-align:left}.el-table td.is-center,.el-table th.is-center{text-align:center}.el-table td.is-right,.el-table th.is-right{text-align:right}.el-table td.gutter,.el-table th.gutter{width:15px;border-right-width:0;border-bottom-width:0;padding:0}.el-table--medium td,.el-table--medium th{padding:10px 0}.el-table--small td,.el-table--small th{padding:8px 0}.el-table--mini td,.el-table--mini th{padding:6px 0}.el-table .cell,.el-table--border td:first-child .cell,.el-table--border th:first-child .cell{padding-left:10px}.el-table tr input[type=checkbox]{margin:0}.el-table td,.el-table th.is-leaf{border-bottom:1px solid #EBEEF5}.el-table th.is-sortable{cursor:pointer}.el-table th{overflow:hidden;user-select:none}.el-table th>.cell{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;vertical-align:middle;padding-left:10px;padding-right:10px;width:100%}.el-table th>.cell.highlight{color:#409EFF}.el-table th.required>div::before{display:inline-block;content:"";width:8px;height:8px;border-radius:50%;background:#ff4d51;margin-right:5px;vertical-align:middle}.el-table td div{-webkit-box-sizing:border-box;box-sizing:border-box}.el-table td.gutter{width:0}.el-table .cell{-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden;text-overflow:ellipsis;white-space:normal;word-break:break-all;line-height:23px;padding-right:10px}.el-table .cell.el-tooltip{white-space:nowrap;min-width:50px}.el-table--border,.el-table--group{border:1px solid #EBEEF5}.el-table--border::after,.el-table--group::after,.el-table::before{content:'';position:absolute;background-color:#EBEEF5;z-index:1}.el-table--border::after,.el-table--group::after{top:0;right:0;width:1px;height:100%}.el-table::before{left:0;bottom:0;width:100%;height:1px}.el-table--border{border-right:none;border-bottom:none}.el-table--border.el-loading-parent--relative{border-color:transparent}.el-table--border td,.el-table--border th,.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed{border-right:1px solid #EBEEF5}.el-table--border th.gutter:last-of-type{border-bottom:1px solid #EBEEF5;border-bottom-width:1px}.el-table--border th,.el-table__fixed-right-patch{border-bottom:1px solid #EBEEF5}.el-table__fixed,.el-table__fixed-right{position:absolute;top:0;left:0;overflow-x:hidden;overflow-y:hidden;-webkit-box-shadow:0 0 10px rgba(0,0,0,.12);box-shadow:0 0 10px rgba(0,0,0,.12)}.el-table__fixed-right::before,.el-table__fixed::before{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background-color:#EBEEF5;z-index:4}.el-table__fixed-right-patch{position:absolute;top:-1px;right:0;background-color:#FFF}.el-table__fixed-right{top:0;left:auto;right:0}.el-table__fixed-right .el-table__fixed-body-wrapper,.el-table__fixed-right .el-table__fixed-footer-wrapper,.el-table__fixed-right .el-table__fixed-header-wrapper{left:auto;right:0}.el-table__fixed-header-wrapper{position:absolute;left:0;top:0;z-index:3}.el-table__fixed-footer-wrapper{position:absolute;left:0;bottom:0;z-index:3}.el-table__fixed-footer-wrapper tbody td{border-top:1px solid #EBEEF5;background-color:#F5F7FA;color:#606266}.el-table__fixed-body-wrapper{position:absolute;left:0;top:37px;overflow:hidden;z-index:3}.el-table__body-wrapper,.el-table__footer-wrapper,.el-table__header-wrapper{width:100%}.el-table__footer-wrapper{margin-top:-1px}.el-table__footer-wrapper td{border-top:1px solid #EBEEF5}.el-table__body,.el-table__footer,.el-table__header{table-layout:fixed;border-collapse:separate}.el-table__footer-wrapper,.el-table__header-wrapper{overflow:hidden}.el-table__footer-wrapper tbody td,.el-table__header-wrapper tbody td{background-color:#F5F7FA;color:#606266}.el-table__body-wrapper{overflow:hidden;position:relative}.el-table__body-wrapper.is-scrolling-left~.el-table__fixed,.el-table__body-wrapper.is-scrolling-none~.el-table__fixed,.el-table__body-wrapper.is-scrolling-none~.el-table__fixed-right,.el-table__body-wrapper.is-scrolling-right~.el-table__fixed-right{-webkit-box-shadow:none;box-shadow:none}.el-table__body-wrapper .el-table--border.is-scrolling-right~.el-table__fixed-right{border-left:1px solid #EBEEF5}.el-table .caret-wrapper{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:34px;width:24px;vertical-align:middle;cursor:pointer;overflow:initial;position:relative}.el-table .sort-caret{width:0;height:0;border:5px solid transparent;position:absolute;left:7px}.el-table .sort-caret.ascending{border-bottom-color:#C0C4CC;top:5px}.el-table .sort-caret.descending{border-top-color:#C0C4CC;bottom:7px}.el-table .ascending .sort-caret.ascending{border-bottom-color:#409EFF}.el-table .descending .sort-caret.descending{border-top-color:#409EFF}.el-table .hidden-columns{visibility:hidden;position:absolute;z-index:-1}.el-table--striped .el-table__body tr.el-table__row--striped td{background:#FAFAFA}.el-table--striped .el-table__body tr.el-table__row--striped.current-row td{background-color:#ecf5ff}.el-table__body tr.hover-row.current-row>td,.el-table__body tr.hover-row.el-table__row--striped.current-row>td,.el-table__body tr.hover-row.el-table__row--striped>td,.el-table__body tr.hover-row>td{background-color:#F5F7FA}.el-table__body tr.current-row>td{background-color:#ecf5ff}.el-table__column-resize-proxy{position:absolute;left:200px;top:0;bottom:0;width:0;border-left:1px solid #EBEEF5;z-index:10}.el-table__column-filter-trigger{display:inline-block;line-height:34px;cursor:pointer}.el-table__column-filter-trigger i{color:#909399;font-size:12px;-webkit-transform:scale(.75);transform:scale(.75)}.el-table--enable-row-transition .el-table__body td{-webkit-transition:background-color .25s ease;transition:background-color .25s ease}.el-table--enable-row-hover .el-table__body tr:hover>td{background-color:#F5F7FA}.el-table--fluid-height .el-table__fixed,.el-table--fluid-height .el-table__fixed-right{bottom:0;overflow:hidden}.el-table [class*=el-table__row--level] .el-table__expand-icon{display:inline-block;width:20px;line-height:20px;height:20px;text-align:center;margin-right:3px}</style><style type="text/css">.el-fade-in-enter,.el-fade-in-leave-active,.el-fade-in-linear-enter,.el-fade-in-linear-leave,.el-fade-in-linear-leave-active,.fade-in-linear-enter,.fade-in-linear-leave,.fade-in-linear-leave-active{opacity:0}.fade-in-linear-enter-active,.fade-in-linear-leave-active{-webkit-transition:opacity .2s linear;transition:opacity .2s linear}.el-fade-in-linear-enter-active,.el-fade-in-linear-leave-active{-webkit-transition:opacity .2s linear;transition:opacity .2s linear}.el-fade-in-enter-active,.el-fade-in-leave-active{-webkit-transition:all .3s cubic-bezier(.55,0,.1,1);transition:all .3s cubic-bezier(.55,0,.1,1)}.el-zoom-in-center-enter-active,.el-zoom-in-center-leave-active{-webkit-transition:all .3s cubic-bezier(.55,0,.1,1);transition:all .3s cubic-bezier(.55,0,.1,1)}.el-zoom-in-center-enter,.el-zoom-in-center-leave-active{opacity:0;-webkit-transform:scaleX(0);transform:scaleX(0)}.el-zoom-in-top-enter-active,.el-zoom-in-top-leave-active{opacity:1;-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);-webkit-transform-origin:center top;transform-origin:center top}.el-zoom-in-top-enter,.el-zoom-in-top-leave-active{opacity:0;-webkit-transform:scaleY(0);transform:scaleY(0)}.el-zoom-in-bottom-enter-active,.el-zoom-in-bottom-leave-active{opacity:1;-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);-webkit-transform-origin:center bottom;transform-origin:center bottom}.el-zoom-in-bottom-enter,.el-zoom-in-bottom-leave-active{opacity:0;-webkit-transform:scaleY(0);transform:scaleY(0)}.el-zoom-in-left-enter-active,.el-zoom-in-left-leave-active{opacity:1;-webkit-transform:scale(1,1);transform:scale(1,1);-webkit-transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1);transition:transform .3s cubic-bezier(.23,1,.32,1),opacity .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);-webkit-transform-origin:top left;transform-origin:top left}.el-zoom-in-left-enter,.el-zoom-in-left-leave-active{opacity:0;-webkit-transform:scale(.45,.45);transform:scale(.45,.45)}.collapse-transition{-webkit-transition:.3s height ease-in-out,.3s padding-top ease-in-out,.3s padding-bottom ease-in-out;transition:.3s height ease-in-out,.3s padding-top ease-in-out,.3s padding-bottom ease-in-out}.horizontal-collapse-transition{-webkit-transition:.3s width ease-in-out,.3s padding-left ease-in-out,.3s padding-right ease-in-out;transition:.3s width ease-in-out,.3s padding-left ease-in-out,.3s padding-right ease-in-out}.el-list-enter-active,.el-list-leave-active{-webkit-transition:all 1s;transition:all 1s}.el-list-enter,.el-list-leave-active{opacity:0;-webkit-transform:translateY(-30px);transform:translateY(-30px)}.el-opacity-transition{-webkit-transition:opacity .3s cubic-bezier(.55,0,.1,1);transition:opacity .3s cubic-bezier(.55,0,.1,1)}@font-face{font-family:element-icons;src:url(buildnode_modules/element-ui/lib/theme-chalk/fonts/element-icons.woff) format("woff"),url(buildnode_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf) format("truetype");font-weight:400;font-display:"auto";font-style:normal}[class*=" el-icon-"],[class^=el-icon-]{font-family:element-icons!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;vertical-align:baseline;display:inline-block;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.el-icon-ice-cream-round:before{content:"\E6A0"}.el-icon-ice-cream-square:before{content:"\E6A3"}.el-icon-lollipop:before{content:"\E6A4"}.el-icon-potato-strips:before{content:"\E6A5"}.el-icon-milk-tea:before{content:"\E6A6"}.el-icon-ice-drink:before{content:"\E6A7"}.el-icon-ice-tea:before{content:"\E6A9"}.el-icon-coffee:before{content:"\E6AA"}.el-icon-orange:before{content:"\E6AB"}.el-icon-pear:before{content:"\E6AC"}.el-icon-apple:before{content:"\E6AD"}.el-icon-cherry:before{content:"\E6AE"}.el-icon-watermelon:before{content:"\E6AF"}.el-icon-grape:before{content:"\E6B0"}.el-icon-refrigerator:before{content:"\E6B1"}.el-icon-goblet-square-full:before{content:"\E6B2"}.el-icon-goblet-square:before{content:"\E6B3"}.el-icon-goblet-full:before{content:"\E6B4"}.el-icon-goblet:before{content:"\E6B5"}.el-icon-cold-drink:before{content:"\E6B6"}.el-icon-coffee-cup:before{content:"\E6B8"}.el-icon-water-cup:before{content:"\E6B9"}.el-icon-hot-water:before{content:"\E6BA"}.el-icon-ice-cream:before{content:"\E6BB"}.el-icon-dessert:before{content:"\E6BC"}.el-icon-sugar:before{content:"\E6BD"}.el-icon-tableware:before{content:"\E6BE"}.el-icon-burger:before{content:"\E6BF"}.el-icon-knife-fork:before{content:"\E6C1"}.el-icon-fork-spoon:before{content:"\E6C2"}.el-icon-chicken:before{content:"\E6C3"}.el-icon-food:before{content:"\E6C4"}.el-icon-dish-1:before{content:"\E6C5"}.el-icon-dish:before{content:"\E6C6"}.el-icon-moon-night:before{content:"\E6EE"}.el-icon-moon:before{content:"\E6F0"}.el-icon-cloudy-and-sunny:before{content:"\E6F1"}.el-icon-partly-cloudy:before{content:"\E6F2"}.el-icon-cloudy:before{content:"\E6F3"}.el-icon-sunny:before{content:"\E6F6"}.el-icon-sunset:before{content:"\E6F7"}.el-icon-sunrise-1:before{content:"\E6F8"}.el-icon-sunrise:before{content:"\E6F9"}.el-icon-heavy-rain:before{content:"\E6FA"}.el-icon-lightning:before{content:"\E6FB"}.el-icon-light-rain:before{content:"\E6FC"}.el-icon-wind-power:before{content:"\E6FD"}.el-icon-baseball:before{content:"\E712"}.el-icon-soccer:before{content:"\E713"}.el-icon-football:before{content:"\E715"}.el-icon-basketball:before{content:"\E716"}.el-icon-ship:before{content:"\E73F"}.el-icon-truck:before{content:"\E740"}.el-icon-bicycle:before{content:"\E741"}.el-icon-mobile-phone:before{content:"\E6D3"}.el-icon-service:before{content:"\E6D4"}.el-icon-key:before{content:"\E6E2"}.el-icon-unlock:before{content:"\E6E4"}.el-icon-lock:before{content:"\E6E5"}.el-icon-watch:before{content:"\E6FE"}.el-icon-watch-1:before{content:"\E6FF"}.el-icon-timer:before{content:"\E702"}.el-icon-alarm-clock:before{content:"\E703"}.el-icon-map-location:before{content:"\E704"}.el-icon-delete-location:before{content:"\E705"}.el-icon-add-location:before{content:"\E706"}.el-icon-location-information:before{content:"\E707"}.el-icon-location-outline:before{content:"\E708"}.el-icon-location:before{content:"\E79E"}.el-icon-place:before{content:"\E709"}.el-icon-discover:before{content:"\E70A"}.el-icon-first-aid-kit:before{content:"\E70B"}.el-icon-trophy-1:before{content:"\E70C"}.el-icon-trophy:before{content:"\E70D"}.el-icon-medal:before{content:"\E70E"}.el-icon-medal-1:before{content:"\E70F"}.el-icon-stopwatch:before{content:"\E710"}.el-icon-mic:before{content:"\E711"}.el-icon-copy-document:before{content:"\E718"}.el-icon-full-screen:before{content:"\E719"}.el-icon-switch-button:before{content:"\E71B"}.el-icon-aim:before{content:"\E71C"}.el-icon-crop:before{content:"\E71D"}.el-icon-odometer:before{content:"\E71E"}.el-icon-time:before{content:"\E71F"}.el-icon-bangzhu:before{content:"\E724"}.el-icon-close-notification:before{content:"\E726"}.el-icon-microphone:before{content:"\E727"}.el-icon-turn-off-microphone:before{content:"\E728"}.el-icon-position:before{content:"\E729"}.el-icon-postcard:before{content:"\E72A"}.el-icon-message:before{content:"\E72B"}.el-icon-chat-line-square:before{content:"\E72D"}.el-icon-chat-dot-square:before{content:"\E72E"}.el-icon-chat-dot-round:before{content:"\E72F"}.el-icon-chat-square:before{content:"\E730"}.el-icon-chat-line-round:before{content:"\E731"}.el-icon-chat-round:before{content:"\E732"}.el-icon-set-up:before{content:"\E733"}.el-icon-turn-off:before{content:"\E734"}.el-icon-open:before{content:"\E735"}.el-icon-connection:before{content:"\E736"}.el-icon-link:before{content:"\E737"}.el-icon-cpu:before{content:"\E738"}.el-icon-thumb:before{content:"\E739"}.el-icon-female:before{content:"\E73A"}.el-icon-male:before{content:"\E73B"}.el-icon-guide:before{content:"\E73C"}.el-icon-news:before{content:"\E73E"}.el-icon-price-tag:before{content:"\E744"}.el-icon-discount:before{content:"\E745"}.el-icon-wallet:before{content:"\E747"}.el-icon-coin:before{content:"\E748"}.el-icon-money:before{content:"\E749"}.el-icon-bank-card:before{content:"\E74A"}.el-icon-box:before{content:"\E74B"}.el-icon-present:before{content:"\E74C"}.el-icon-sell:before{content:"\E6D5"}.el-icon-sold-out:before{content:"\E6D6"}.el-icon-shopping-bag-2:before{content:"\E74D"}.el-icon-shopping-bag-1:before{content:"\E74E"}.el-icon-shopping-cart-2:before{content:"\E74F"}.el-icon-shopping-cart-1:before{content:"\E750"}.el-icon-shopping-cart-full:before{content:"\E751"}.el-icon-smoking:before{content:"\E752"}.el-icon-no-smoking:before{content:"\E753"}.el-icon-house:before{content:"\E754"}.el-icon-table-lamp:before{content:"\E755"}.el-icon-school:before{content:"\E756"}.el-icon-office-building:before{content:"\E757"}.el-icon-toilet-paper:before{content:"\E758"}.el-icon-notebook-2:before{content:"\E759"}.el-icon-notebook-1:before{content:"\E75A"}.el-icon-files:before{content:"\E75B"}.el-icon-collection:before{content:"\E75C"}.el-icon-receiving:before{content:"\E75D"}.el-icon-suitcase-1:before{content:"\E760"}.el-icon-suitcase:before{content:"\E761"}.el-icon-film:before{content:"\E763"}.el-icon-collection-tag:before{content:"\E765"}.el-icon-data-analysis:before{content:"\E766"}.el-icon-pie-chart:before{content:"\E767"}.el-icon-data-board:before{content:"\E768"}.el-icon-data-line:before{content:"\E76D"}.el-icon-reading:before{content:"\E769"}.el-icon-magic-stick:before{content:"\E76A"}.el-icon-coordinate:before{content:"\E76B"}.el-icon-mouse:before{content:"\E76C"}.el-icon-brush:before{content:"\E76E"}.el-icon-headset:before{content:"\E76F"}.el-icon-umbrella:before{content:"\E770"}.el-icon-scissors:before{content:"\E771"}.el-icon-mobile:before{content:"\E773"}.el-icon-attract:before{content:"\E774"}.el-icon-monitor:before{content:"\E775"}.el-icon-search:before{content:"\E778"}.el-icon-takeaway-box:before{content:"\E77A"}.el-icon-paperclip:before{content:"\E77D"}.el-icon-printer:before{content:"\E77E"}.el-icon-document-add:before{content:"\E782"}.el-icon-document:before{content:"\E785"}.el-icon-document-checked:before{content:"\E786"}.el-icon-document-copy:before{content:"\E787"}.el-icon-document-delete:before{content:"\E788"}.el-icon-document-remove:before{content:"\E789"}.el-icon-tickets:before{content:"\E78B"}.el-icon-folder-checked:before{content:"\E77F"}.el-icon-folder-delete:before{content:"\E780"}.el-icon-folder-remove:before{content:"\E781"}.el-icon-folder-add:before{content:"\E783"}.el-icon-folder-opened:before{content:"\E784"}.el-icon-folder:before{content:"\E78A"}.el-icon-edit-outline:before{content:"\E764"}.el-icon-edit:before{content:"\E78C"}.el-icon-date:before{content:"\E78E"}.el-icon-c-scale-to-original:before{content:"\E7C6"}.el-icon-view:before{content:"\E6CE"}.el-icon-loading:before{content:"\E6CF"}.el-icon-rank:before{content:"\E6D1"}.el-icon-sort-down:before{content:"\E7C4"}.el-icon-sort-up:before{content:"\E7C5"}.el-icon-sort:before{content:"\E6D2"}.el-icon-finished:before{content:"\E6CD"}.el-icon-refresh-left:before{content:"\E6C7"}.el-icon-refresh-right:before{content:"\E6C8"}.el-icon-refresh:before{content:"\E6D0"}.el-icon-video-play:before{content:"\E7C0"}.el-icon-video-pause:before{content:"\E7C1"}.el-icon-d-arrow-right:before{content:"\E6DC"}.el-icon-d-arrow-left:before{content:"\E6DD"}.el-icon-arrow-up:before{content:"\E6E1"}.el-icon-arrow-down:before{content:"\E6DF"}.el-icon-arrow-right:before{content:"\E6E0"}.el-icon-arrow-left:before{content:"\E6DE"}.el-icon-top-right:before{content:"\E6E7"}.el-icon-top-left:before{content:"\E6E8"}.el-icon-top:before{content:"\E6E6"}.el-icon-bottom:before{content:"\E6EB"}.el-icon-right:before{content:"\E6E9"}.el-icon-back:before{content:"\E6EA"}.el-icon-bottom-right:before{content:"\E6EC"}.el-icon-bottom-left:before{content:"\E6ED"}.el-icon-caret-top:before{content:"\E78F"}.el-icon-caret-bottom:before{content:"\E790"}.el-icon-caret-right:before{content:"\E791"}.el-icon-caret-left:before{content:"\E792"}.el-icon-d-caret:before{content:"\E79A"}.el-icon-share:before{content:"\E793"}.el-icon-menu:before{content:"\E798"}.el-icon-s-grid:before{content:"\E7A6"}.el-icon-s-check:before{content:"\E7A7"}.el-icon-s-data:before{content:"\E7A8"}.el-icon-s-opportunity:before{content:"\E7AA"}.el-icon-s-custom:before{content:"\E7AB"}.el-icon-s-claim:before{content:"\E7AD"}.el-icon-s-finance:before{content:"\E7AE"}.el-icon-s-comment:before{content:"\E7AF"}.el-icon-s-flag:before{content:"\E7B0"}.el-icon-s-marketing:before{content:"\E7B1"}.el-icon-s-shop:before{content:"\E7B4"}.el-icon-s-open:before{content:"\E7B5"}.el-icon-s-management:before{content:"\E7B6"}.el-icon-s-ticket:before{content:"\E7B7"}.el-icon-s-release:before{content:"\E7B8"}.el-icon-s-home:before{content:"\E7B9"}.el-icon-s-promotion:before{content:"\E7BA"}.el-icon-s-operation:before{content:"\E7BB"}.el-icon-s-unfold:before{content:"\E7BC"}.el-icon-s-fold:before{content:"\E7A9"}.el-icon-s-platform:before{content:"\E7BD"}.el-icon-s-order:before{content:"\E7BE"}.el-icon-s-cooperation:before{content:"\E7BF"}.el-icon-bell:before{content:"\E725"}.el-icon-message-solid:before{content:"\E799"}.el-icon-video-camera:before{content:"\E772"}.el-icon-video-camera-solid:before{content:"\E796"}.el-icon-camera:before{content:"\E779"}.el-icon-camera-solid:before{content:"\E79B"}.el-icon-download:before{content:"\E77C"}.el-icon-upload2:before{content:"\E77B"}.el-icon-upload:before{content:"\E7C3"}.el-icon-picture-outline-round:before{content:"\E75F"}.el-icon-picture-outline:before{content:"\E75E"}.el-icon-picture:before{content:"\E79F"}.el-icon-close:before{content:"\E6DB"}.el-icon-check:before{content:"\E6DA"}.el-icon-plus:before{content:"\E6D9"}.el-icon-minus:before{content:"\E6D8"}.el-icon-help:before{content:"\E73D"}.el-icon-s-help:before{content:"\E7B3"}.el-icon-circle-close:before{content:"\E78D"}.el-icon-circle-check:before{content:"\E720"}.el-icon-circle-plus-outline:before{content:"\E723"}.el-icon-remove-outline:before{content:"\E722"}.el-icon-zoom-out:before{content:"\E776"}.el-icon-zoom-in:before{content:"\E777"}.el-icon-error:before{content:"\E79D"}.el-icon-success:before{content:"\E79C"}.el-icon-circle-plus:before{content:"\E7A0"}.el-icon-remove:before{content:"\E7A2"}.el-icon-info:before{content:"\E7A1"}.el-icon-question:before{content:"\E7A4"}.el-icon-warning-outline:before{content:"\E6C9"}.el-icon-warning:before{content:"\E7A3"}.el-icon-goods:before{content:"\E7C2"}.el-icon-s-goods:before{content:"\E7B2"}.el-icon-star-off:before{content:"\E717"}.el-icon-star-on:before{content:"\E797"}.el-icon-more-outline:before{content:"\E6CC"}.el-icon-more:before{content:"\E794"}.el-icon-phone-outline:before{content:"\E6CB"}.el-icon-phone:before{content:"\E795"}.el-icon-user:before{content:"\E6E3"}.el-icon-user-solid:before{content:"\E7A5"}.el-icon-setting:before{content:"\E6CA"}.el-icon-s-tools:before{content:"\E7AC"}.el-icon-delete:before{content:"\E6D7"}.el-icon-delete-solid:before{content:"\E7C9"}.el-icon-eleme:before{content:"\E7C7"}.el-icon-platform-eleme:before{content:"\E7CA"}.el-icon-loading{-webkit-animation:rotating 2s linear infinite;animation:rotating 2s linear infinite}.el-icon--right{margin-left:5px}.el-icon--left{margin-right:5px}@-webkit-keyframes rotating{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}@keyframes rotating{0%{-webkit-transform:rotateZ(0);transform:rotateZ(0)}100%{-webkit-transform:rotateZ(360deg);transform:rotateZ(360deg)}}</style><style type="text/css">
+.vue-modal-resizer {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  background: transparent;
+  cursor: se-resize;
+}
+.vue-modal-resizer::after {
+  display: block;
+  position: absolute;
+  content: '';
+  background: transparent;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ddd;
+  border-left: 10px solid transparent;
+}
+.vue-modal-resizer.clicked::after {
+  border-bottom: 10px solid #369be9;
+}
+</style><style type="text/css">
+.v--modal-block-scroll {
+  overflow: hidden;
+  width: 100vw;
+}
+.v--modal-overlay {
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  opacity: 1;
+}
+.v--modal-overlay.scrollable {
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.v--modal-overlay .v--modal-background-click {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+.v--modal-overlay .v--modal-box {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.v--modal-overlay.scrollable .v--modal-box {
+  margin-bottom: 2px;
+}
+.v--modal {
+  background-color: white;
+  text-align: left;
+  border-radius: 3px;
+  box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
+  padding: 0;
+}
+.v--modal.v--modal-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+.v--modal-top-right {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.overlay-fade-enter-active,
+.overlay-fade-leave-active {
+  transition: all 0.2s;
+}
+.overlay-fade-enter,
+.overlay-fade-leave-active {
+  opacity: 0;
+}
+.nice-modal-fade-enter-active,
+.nice-modal-fade-leave-active {
+  transition: all 0.4s;
+}
+.nice-modal-fade-enter,
+.nice-modal-fade-leave-active {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+</style><style type="text/css">
+.vue-dialog div {
+  box-sizing: border-box;
+}
+.vue-dialog .dialog-flex {
+  width: 100%;
+  height: 100%;
+}
+.vue-dialog .dialog-content {
+  flex: 1 0 auto;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+}
+.vue-dialog .dialog-c-title {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.vue-dialog .dialog-c-text {
+}
+.vue-dialog .vue-dialog-buttons {
+  display: flex;
+  flex: 0 1 auto;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+.vue-dialog .vue-dialog-buttons-none {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.vue-dialog-button {
+  font-size: 12px !important;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 40px;
+  height: 40px;
+  color: inherit;
+  font: inherit;
+  outline: none;
+}
+.vue-dialog-button:hover {
+  background: rgba(0, 0, 0, 0.01);
+}
+.vue-dialog-button:active {
+  background: rgba(0, 0, 0, 0.025);
+}
+.vue-dialog-button:not(:first-of-type) {
+  border-left: 1px solid #eee;
+}
+</style><style type="text/css">
+.v-business-card[data-v-a56fdf46] {
+    background-color: transparent;
+    z-index: 999;
+    position: absolute;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.v-business-card > *[data-v-a56fdf46] {
+    box-sizing: border-box;
+}
+.v-business-card--space-bottom[data-v-a56fdf46] {
+    padding-bottom: 10px;
+}
+.v-business-card__content[data-v-a56fdf46] {
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(67, 76, 84, 0.25);
+    border-radius: 3px;
+    min-width: 220px;
+    position: relative;
+}
+.v-business-card__content[data-v-a56fdf46]:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 102px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    z-index: 1000;
+}
+.v-business-card__content--bottom[data-v-a56fdf46]:before {
+    top: calc(100% - 7px);
+}
+.v-business-card__content--right[data-v-a56fdf46]:before {
+    left: calc(100% - 115px);
+}
+.fade-in-enter-active[data-v-a56fdf46], .fade-in-leave-active[data-v-a56fdf46] {
+    transition: opacity .25s;
+}
+.fade-in-enter[data-v-a56fdf46] {
+    opacity: 0;
+}
+.fade-in-leave-to[data-v-a56fdf46] {
+    opacity: 1;
+}
+</style><style type="text/css">
+.business-card__info[data-v-08510fe8] {
+    padding: 25px 20px 10px;
+    width: 540px;
+    font-size: 15px;
+    position: relative;
+}
+.business-card__section[data-v-08510fe8] {
+    margin-bottom: 15px;
+}
+.business-card__subtitle[data-v-08510fe8] {
+    font-weight: bold;
+}
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: Container-sc-1d4e5d2 */
+
+/* sc-component-id: AnimatedSections-sc-rr80lk */
+
+/* sc-component-id: Sections-sc-8g0cqx */
+
+/* sc-component-id: Section-sc-4k9ta8 */
+
+/* sc-component-id: Container-sc-akn6j2 */
+
+/* sc-component-id: Text-sc-1gwrqk9 */
+
+/* sc-component-id: Div-sc-rg941n */
+
+/* sc-component-id: CollapseTitle-sc-6gk6c2 */
+
+/* sc-component-id: CollapseArrow-sc-1765jfp */
+
+/* sc-component-id: GearBackground-sc-irys0r */
+
+/* sc-component-id: Svg-sc-1nclmy0 */
+
+/* sc-component-id: Svg-sc-1r03pjc */
+
+/* sc-component-id: StyledFooterGear-sc-1bmnxyh */
+
+/* sc-component-id: StyledFooterLogo-sc-bpq3en */
+
+/* sc-component-id: Div-sc-ujvyf3 */
+
+/* sc-component-id: Svg-sc-6chthz */
+
+/* sc-component-id: sc-global-1177310763 */
+
+/* sc-component-id: Font-sc-1yxdyl1 */
+
+/* sc-component-id: SectionTabContainer-sc-132t52l */
+
+/* sc-component-id: SectionTabsContainer-sc-nopgri */
+
+/* sc-component-id: Div-sc-h28o68 */
+
+/* sc-component-id: TextRotatorText-sc-1ewbea8 */
+
+/* sc-component-id: TextRotatorTextDefault-sc-q36z8b */
+
+/* sc-component-id: TextRotatorTextHover-sc-3opvg5 */
+
+/* sc-component-id: Svg-sc-1dzjbol */
+
+/* sc-component-id: BellCircle-sc-fffo1m */
+
+/* sc-component-id: BellPath-sc-8qerpp */
+
+/* sc-component-id: Path-sc-1h1gtad */
+
+/* sc-component-id: Div-sc-m0rh56 */
+
+/* sc-component-id: Text-sc-fnbq5 */
+
+/* sc-component-id: HeaderTitle-sc-z6kx1s */
+
+/* sc-component-id: HeaderSubtitle-sc-18ldkpk */
+
+/* sc-component-id: Div-sc-7qa0xv */
+
+/* sc-component-id: HeaderIcon-sc-168dll */
+
+/* sc-component-id: LoaderWrapper-sc-fkwwb5 */
+
+/* sc-component-id: ButtonWrapper-sc-1eobr8l */
+
+/* sc-component-id: Quantity-sc-18qgosu */
+
+/* sc-component-id: Notice-sc-r8gig2 */
+
+/* sc-component-id: PriceBody-sc-x8vo7i */
+
+/* sc-component-id: LoaderWrapper-sc-1kwkt50 */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: LoaderImageWrapper-sc-s2zsje */
+
+/* sc-component-id: GraphWrapper-sc-td84y2 */
+
+/* sc-component-id: Button-sc-1vdtrvh */
+
+/* sc-component-id: EmptyContainer-sc-pjkzj7 */
+
+/* sc-component-id: MorePhotos-sc-1qcv0de */
+
+/* sc-component-id: SmallItemListContainer-sc-1g0laod */
+
+/* sc-component-id: Image-sc-9eaeqx */
+
+/* sc-component-id: SmallItemBG-sc-8hnh15 */
+
+/* sc-component-id: Photos-sc-1e3517g */
+
+/* sc-component-id: Heading-sc-1ajfoyj */
+
+/* sc-component-id: HR-sc-18orrnk */
+
+/* sc-component-id: A-sc-1ebjbw9 */
+
+/* sc-component-id: IndetermRatingSpan-sc-1qp8797 */
+
+/* sc-component-id: SellerInfoWrapper-sc-1o7rc8d */
+
+/* sc-component-id: SellerInfoItem-sc-h5ttt8 */
+
+/* sc-component-id: IndetermText-sc-lyod5g */
+
+/* sc-component-id: LoaderWrapper-sc-1gs5twt */
+
+/* sc-component-id: SellerBody-sc-gpv548 */
+
+/* sc-component-id: SellerBodyIndeterm-sc-80h405 */
+
+/* sc-component-id: AnimationWrapper-sc-1lrqoee */
+
+/* sc-component-id: FirstPulse-sc-pda4eb */
+
+/* sc-component-id: SecondPulse-sc-1wyq7g7 */
+
+/* sc-component-id: PulseCore-sc-1xyknhi */
+
+/* sc-component-id: FooterTextContainer-sc-17hyn11 */
+
+/* sc-component-id: ButtonContainer-sc-4zma7a */
+
+/* sc-component-id: FooterTextWrapper-sc-12usyy0 */
+
+/* sc-component-id: IconWrapper-sc-1fpnlfh */
+
+/* sc-component-id: BoardingFooter-sc-1in3gt9 */
+
+/* sc-component-id: TextHeader-sc-4yl6hl */
+
+/* sc-component-id: TextBody-sc-w4s9fl */
+
+/* sc-component-id: ButtonWrapper-sc-1i49pf5 */
+
+/* sc-component-id: BoardingBody-sc-1kjgfq5 */
+
+/* sc-component-id: TextWrapper-sc-1pq9qx0 */
+
+/* sc-component-id: BoardingWrapper-sc-fhxewy */
+
+/* sc-component-id: FirstButtonWrapper-sc-gz5hnd */
+
+/* sc-component-id: SecondButtonWrapper-sc-1jw5atw */
+
+/* sc-component-id: ImageWrapper-sc-hkisak */
+
+/* sc-component-id: HeaderWrapper-sc-j0k9g9 */
+
+/* sc-component-id: LastWidgetContainer-sc-hsu1h6 */
+
+/* sc-component-id: ButtonWrapper-sc-2vhlzz */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: ByeButtonsWrapper-sc-1npgxl3 */
+
+/* sc-component-id: LastWidgetWrapper-sc-ttoi8m */
+
+/* sc-component-id: ArrowWrapper-sc-tjjrnr */
+
+/* sc-component-id: PathWrapper-sc-1sdrixp */
+
+/* sc-component-id: IconWrapper-sc-19srwlv */
+
+/* sc-component-id: BoardingWraper-sc-1rblw4i */
+
+/* sc-component-id: TooltipText-sc-15vjxzy */
+
+/* sc-component-id: CloseSectionWrapper-sc-1p9qikz */
+
+/* sc-component-id: BoardingOverlayStyled-sc-1nnxbt */
+
+/* sc-component-id: Inner-sc-1vtdwyc */
+
+/* sc-component-id: Svg-sc-xu1eo6 */
+
+/* sc-component-id: Bold-sc-h7dl3d */
+
+/* sc-component-id: SvgWrapper-sc-xzljg2 */
+
+/* sc-component-id: StarWrapper-sc-1n7ew0h */
+
+/* sc-component-id: ReviewContainer-sc-1otamdm */
+
+/* sc-component-id: ReviewFooter-sc-15qef0d */
+
+/* sc-component-id: OrderInfoItem-sc-bhig6v */
+
+/* sc-component-id: ClosePanel-sc-i52m03 */
+
+/* sc-component-id: Background-sc-165tofu */
+
+/* sc-component-id: GalleryWidgetContainer-sc-4w2okc */
+
+/* sc-component-id: FullReview-sc-1b2cih3 */
+
+/* sc-component-id: ReviewPhoto-sc-1b6wawk */
+
+/* sc-component-id: Area-sc-c85oup */
+
+/* sc-component-id: LeftArea-sc-70v7k3 */
+
+/* sc-component-id: RightCenterArea-sc-1bv8st */
+
+/* sc-component-id: CenterArea-sc-1w9nz5d */
+
+/* sc-component-id: RightArea-sc-1m190d1 */
+
+/* sc-component-id: ReviewText-sc-1394jvo */
+
+/* sc-component-id: MyScrollArea-sc-14isqbe */
+
+/* sc-component-id: ReviewList-sc-blpqja */
+
+/* sc-component-id: SettingsTitle-sc-1y73m0s */
+
+/* sc-component-id: WidgetTabTitleWrapper-sc-pkaa40 */
+
+/* sc-component-id: CloseWrapper-sc-15izb1y */
+
+/* sc-component-id: SvgPointer-sc-ureur2 */
+
+/* sc-component-id: Wrapper-sc-2xqddi */
+
+/* sc-component-id: Button-sc-1dv8xgo */
+
+/* sc-component-id: Message-sc-o91k8g */
+
+/* sc-component-id: Section-sc-lk0nbl */
+
+/* sc-component-id: Image-sc-ty8h1h */
+
+/* sc-component-id: Wrapper-sc-1boihd0 */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: WrapperInner-sc-1hgy316 */
+
+/* sc-component-id: AuthAgent-sc-nza6tq */
+
+/* sc-component-id: Info-sc-xmismo */
+
+/* sc-component-id: Name-sc-egqv4q */
+
+/* sc-component-id: Social-sc-86p3v6 */
+
+/* sc-component-id: Wrapper-sc-9g2r6l */
+
+/* sc-component-id: Logout-sc-1l022q6 */
+
+/* sc-component-id: Checkmark-sc-frzl25 */
+
+/* sc-component-id: Input-sc-1lpe2uk */
+
+/* sc-component-id: Wrapper-sc-4zxtx0 */
+
+/* sc-component-id: Arrow-sc-qd8fze */
+
+/* sc-component-id: ArrowWrapper-sc-to042r */
+
+/* sc-component-id: Field-sc-p4yeiv */
+
+/* sc-component-id: Options-sc-1ts94iz */
+
+/* sc-component-id: OptionsInner-sc-16pybup */
+
+/* sc-component-id: Option-sc-190f555 */
+
+/* sc-component-id: Selected-sc-d39qby */
+
+/* sc-component-id: Wrapper-sc-7bwzdu */
+
+/* sc-component-id: WrapperInner-sc-yowqif */
+
+/* sc-component-id: CheckboxWrapper-sc-idf68f */
+
+/* sc-component-id: Label-sc-kuxczu */
+
+/* sc-component-id: OptionRow-sc-178rywd */
+
+/* sc-component-id: SelectRow-sc-1917zry */
+
+/* sc-component-id: SelectWrapper-sc-c8k28s */
+
+/* sc-component-id: Wrapper-sc-9r4h */
+
+/* sc-component-id: Link-sc-srgje9 */
+
+/* sc-component-id: Wrapper-sc-9fyt8k */
+
+/* sc-component-id: ListWrapperFull-sc-xuwjod */
+
+/* sc-component-id: Background-sc-dcvjda */
+
+/* sc-component-id: SettingsWrapper-sc-18xwefu */
+
+/* sc-component-id: Svg-sc-uj0hbx */
+
+/* sc-component-id: TabSpacer-sc-1k9fmt3 */
+
+/* sc-component-id: Div-sc-13oe2da */
+
+/* sc-component-id: CurrencyCode-sc-1bgtvea */
+
+/* sc-component-id: Div-sc-1rl2dlq */
+
+/* sc-component-id: LoaderWrapper-sc-15w3u48 */
+
+/* sc-component-id: LoaderImageWrapper-sc-bhl5kl */
+
+/* sc-component-id: Div-sc-x1nmbo */
+
+/* sc-component-id: Svg-sc-1t0l34r */
+
+/* sc-component-id: Div-sc-unl9fk */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: Div-sc-2f7esu */
+
+/* sc-component-id: WidgetRight-sc-hazii4 */
+
+/* sc-component-id: Button-sc-vgf5l9 */
+
+/* sc-component-id: Bottom-sc-22a1fl */
+
+/* sc-component-id: StyledWrapper-sc-tfhg1s */
+
+/* sc-component-id: StyledInner-sc-1koh56h */
+
+/* sc-component-id: SvgPointer-sc-1aw7z5s */
+
+/* sc-component-id: RadarLogoWrapper-sc-1euki5b */
+
+/* sc-component-id: SvgPointer-sc-1xd7mpz */
+
+/* sc-component-id: Svg-sc-khgnbw */
+
+/* sc-component-id: Div-sc-wioxc8 */
+
+/* sc-component-id: Link-sc-cj9pt0 */
+
+/* sc-component-id: Container-sc-1pk6h5g */
+
+/* sc-component-id: CustomLink-sc-193adms */
+
+/* sc-component-id: Icons-sc-1hyjiq6 */
+
+/* sc-component-id: Image-sc-19hugqh */
+
+/* sc-component-id: Rows-sc-yedpkr */
+
+/* sc-component-id: Row-sc-dyd6he */
+
+/* sc-component-id: Color-sc-e4vju1 */
+
+/* sc-component-id: SignIn-sc-19mdudk */
+
+/* sc-component-id: MouseOverlay-sc-1t3xf10 */
+
+/* sc-component-id: Item-sc-1h76sqp */
+
+/* sc-component-id: ItemStars-sc-ee45i0 */
+
+/* sc-component-id: ItemOrders-sc-1yknpfw */
+
+/* sc-component-id: ItemInfo-sc-11nkdpb */
+
+/* sc-component-id: ItemContent-sc-1cq3k4l */
+
+/* sc-component-id: ItemHeading-sc-1tlz6xw */
+
+/* sc-component-id: ItemSeller-sc-1ijmfs4 */
+
+/* sc-component-id: ItemSellerStatus-sc-p3lvnb */
+
+/* sc-component-id: ItemSellerStatusNum-sc-1gqo47m */
+
+/* sc-component-id: Currency-sc-17bdbew */
+
+/* sc-component-id: Tooltip-sc-5y7sws */
+
+/* sc-component-id: Card-sc-1ea03fr */
+
+/* sc-component-id: CardBody-sc-ad33td */
+
+/* sc-component-id: Container-sc-uoe3mm */
+
+/* sc-component-id: Image-sc-hokrry */
+
+/* sc-component-id: Text-sc-1pnxobs */
+
+/* sc-component-id: Heading-sc-1w2xs9g */
+
+/* sc-component-id: Container-sc-7y67c1 */
+
+/* sc-component-id: Empty-sc-18ikk0i */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: Img-sc-1raxo79 */
+
+/* sc-component-id: Empty-sc-10khao1 */
+
+/* sc-component-id: Loader-sc-1fh28c7 */
+
+/* sc-component-id: Img-sc-1rtic9y */
+
+/* sc-component-id: Div-sc-v524g2 */
+
+/* sc-component-id: WidgetMain-sc-1u14ujd */
+
+/* sc-component-id: WidgetFooter-sc-1utw7iw */
+
+/* sc-component-id: WidgetHeader-sc-6cburl */
+
+/* sc-component-id: FooterTab-sc-bc3s96 */
+
+/* sc-component-id: SideWidgetControls-sc-42l5au */
+
+/* sc-component-id: SvgPointer-sc-1xqcf1s */
+
+/* sc-component-id: SvgColor-sc-aqpwe6 */
+
+/* sc-component-id: SideWidgetMain-sc-1htp9cx */
+
+/* sc-component-id: SideWidgetContainer-sc-6qzr3r */
+
+/* sc-component-id: SideAndBoarding-sc-g4upvy */
+
+/* sc-component-id: Wrapper-sc-74hcoj */
+
+/* sc-component-id: Snow-sc-4jkm66 */
+
+/* sc-component-id: AuthWrapper-sc-12dgvxh */
+
+/* sc-component-id: AuthText-sc-1erzelm */
+
+/* sc-component-id: ButtonWrapper-sc-sfphg8 */
+
+/* sc-component-id: ButtonWrapper-sc-1piwwpn */
+
+/* sc-component-id: FavoritesWrapper-sc-19irgfv */
+
+/* sc-component-id: TextWrapper-sc-r8nq3o */
+
+/* sc-component-id: Svg-sc-16l3s3u */
+
+/* sc-component-id: CloseIconWrapper-sc-7hhpo5 */
+
+/* sc-component-id: AvailablePlatformsWrapper-sc-1xfvmhu */
+
+/* sc-component-id: FooterWrapper-sc-167ohws */
+
+/* sc-component-id: LinksWrapper-sc-1phbrk */
+
+/* sc-component-id: IconWithMargin-sc-iztqn7 */
+
+/* sc-component-id: StyledImg-sc-rmdsu1 */
+
+/* sc-component-id: LogoutWrapper-sc-cae00p */
+
+/* sc-component-id: DefaultAvatarText-sc-ze2me1 */
+
+/* sc-component-id: DefaultAvatarWrapper-sc-r6rbnu */
+
+/* sc-component-id: AvatarWrapper-sc-1cv1l5a */
+
+/* sc-component-id: ArrowIconWrapper-sc-1l5brs9 */
+
+/* sc-component-id: SidePopupToggler-sc-1d86gzn */
+
+/* sc-component-id: Wrapper-sc-rgkp2c */
+
+/* sc-component-id: RadarLogoWrapper-sc-docjrh */
+
+/* sc-component-id: SupportLogoWrapper-sc-dsehoh */
+
+/* sc-component-id: SvgPointer-sc-46djsa */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: ArrowWrapper-sc-zlxihj */
+
+/* sc-component-id: Discount-sc-17qn048 */
+
+/* sc-component-id: Delivery-sc-v7cc3q */
+
+/* sc-component-id: BeruWrapper-sc-6t9c63 */
+
+/* sc-component-id: DiscountText-sc-cvrvv6 */
+
+/* sc-component-id: ItemWrapper-sc-19ll11l */
+
+/* sc-component-id: ImageWrapper-sc-6zgbpb */
+
+/* sc-component-id: TextWrapper-sc-1xbnqey */
+
+/* sc-component-id: ItemImage-sc-89vmi2 */
+
+/* sc-component-id: ItemCurrency-sc-96zdk3 */
+
+/* sc-component-id: Skeleton-sc-6t2nqr */
+
+/* sc-component-id: ItemListWrapper-sc-1715frt */
+
+/* sc-component-id: ItemListInnerWrapper-sc-1lmmdc1 */
+
+/* sc-component-id: CategoriesWrapper-sc-d4vl3r */
+
+/* sc-component-id: CategoriesWrapperInner-sc-mq229y */
+
+/* sc-component-id: CategoryItem-sc-1ilpv7i */
+
+/* sc-component-id: HotWrapper-sc-1kpmdj4 */
+
+/* sc-component-id: CloseIconWrapper-sc-3pkjel */
+
+/* sc-component-id: HeaderWrapper-sc-a5v2th */
+
+/* sc-component-id: HotIconWrapper-sc-s6akd4 */
+
+/* sc-component-id: HotTitle-sc-1mypdx1 */
+
+/* sc-component-id: SeeAllButton-sc-dww8qa */
+
+/* sc-component-id: Blur-sc-17n3zia */
+
+/* sc-component-id: StyledPath-sc-1arj86c */
+
+/* sc-component-id: IconWrapper-sc-1l6cx78 */
+
+/* sc-component-id: InputWrapper-sc-1srjc01 */
+
+/* sc-component-id: LabelWrapper-sc-c3rk6s */
+
+/* sc-component-id: FirstInputWrapper-sc-13cqvkb */
+
+/* sc-component-id: InputFieldWrapper-sc-ynuc8y */
+
+/* sc-component-id: InsturctionWrapper-sc-ctylsr */
+
+/* sc-component-id: InsturctionQuestion-sc-zo47ti */
+
+/* sc-component-id: InsturctionButtonWrapper-sc-1vzfcrk */
+
+/* sc-component-id: SkipButton-sc-1k5te2x */
+
+/* sc-component-id: InsturctionButton-sc-j91ia3 */
+
+/* sc-component-id: SvgWrapper-sc-cguv3f */
+
+/* sc-component-id: DropdownContainer-sc-16a93br */
+
+/* sc-component-id: DropdownWrapper1-sc-wwz3ma */
+
+/* sc-component-id: DropdownWrapper2-sc-rfkroc */
+
+/* sc-component-id: DropdownItem-sc-b35too */
+
+/* sc-component-id: ShopLinksWrapper-sc-7yu7bt */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: ShopLinksTitle-sc-9xotqs */
+
+/* sc-component-id: ButtonWrapper-sc-1dlam4k */
+
+/* sc-component-id: ButtonsWrapper-sc-xse557 */
+
+/* sc-component-id: StyledButton-sc-1j0boxx */
+
+/* sc-component-id: Button-sc-ckvsmf */
+
+/* sc-component-id: Currency-sc-15u6gfx */
+
+/* sc-component-id: Image-sc-1f3942q */
+
+/* sc-component-id: Name-sc-t52eu8 */
+
+/* sc-component-id: Price-sc-137tt3j */
+
+/* sc-component-id: PriceAndButton-sc-1xw4apu */
+
+/* sc-component-id: Root-sc-adx23v */
+
+/* sc-component-id: Name-sc-1c292nt */
+
+/* sc-component-id: Text-sc-19fo7qj */
+
+/* sc-component-id: Div-sc-1qriv49 */
+
+/* sc-component-id: Text-sc-yhsb1v */
+
+/* sc-component-id: Title-sc-tfbcz7 */
+
+/* sc-component-id: Root-sc-1vw0hli */
+
+/* sc-component-id: Root-sc-1wd9tek */
+
+/* sc-component-id: Details-sc-178cddo */
+
+/* sc-component-id: Detail-sc-1yupld1 */
+
+/* sc-component-id: DetailBottom-sc-fky84a */
+
+/* sc-component-id: DetailIcon-sc-m8cg80 */
+
+/* sc-component-id: DetailTitle-sc-1nmgrq */
+
+/* sc-component-id: DetailTop-sc-acanbs */
+
+/* sc-component-id: Title-sc-4m12t9 */
+
+/* sc-component-id: Currency-sc-1vh80dt */
+
+/* sc-component-id: Price-sc-12tkdn1 */
+
+/* sc-component-id: Tooltip-sc-1mao95u */
+
+/* sc-component-id: Image-sc-8g32oi */
+
+/* sc-component-id: LinkContainer-sc-sol9xu */
+
+/* sc-component-id: PriceAndBadge-sc-1oo2l0o */
+
+/* sc-component-id: Sticker-sc-7te6ax */
+
+/* sc-component-id: Text-sc-wmw4x4 */
+
+/* sc-component-id: TrashCanIconWrapper-sc-10pp50b */
+
+/* sc-component-id: Root-sc-1axzyf4 */
+
+/* sc-component-id: Root-sc-oklee0 */
+
+/* sc-component-id: Icon-sc-4uct1f */
+
+/* sc-component-id: Subtitle-sc-1tmfkgu */
+
+/* sc-component-id: Text-sc-1qvts1m */
+
+/* sc-component-id: Title-sc-q8wodi */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: Root-sc-1d20rcu */
+
+/* sc-component-id: Root-sc-10crbip */
+
+/* sc-component-id: Root-sc-gb0eee */
+
+/* sc-component-id: ItemsSlot-sc-h55mnd */
+
+/* sc-component-id: SignIn-sc-ncvppk */
+
+/* sc-component-id: TabsSlot-sc-owvl2s */
+
+/* sc-component-id: CategoriesSlot-sc-dyu160 */
+
+/* sc-component-id: Icon-sc-zovnas */
+
+/* sc-component-id: ItemsSlot-sc-a37o82 */
+
+/* sc-component-id: OpenFull-sc-zjrarx */
+
+/* sc-component-id: Currency-sc-2fy3im */
+
+/* sc-component-id: Button-sc-yrc7d4 */
+
+/* sc-component-id: ButtonWrapper-sc-1pfoz8j */
+
+/* sc-component-id: PriceBody-sc-1u55xoo */
+
+/* sc-component-id: LoaderWrapper-sc-4lrg40 */
+
+/* sc-component-id: Photos-sc-1tb7ujt */
+
+/* sc-component-id: Heading-sc-1hpr5vc */
+
+/* sc-component-id: HR-sc-1rtwb4a */
+
+/* sc-component-id: A-sc-1vrn6ol */
+
+/* sc-component-id: IndetermRatingSpan-sc-ht75o0 */
+
+/* sc-component-id: SellerInfoWrapper-sc-1jzuksq */
+
+/* sc-component-id: SellerInfoItem-sc-1cfs9jy */
+
+/* sc-component-id: IndetermText-sc-9pan4u */
+
+/* sc-component-id: LoaderWrapper-sc-vlljz4 */
+
+/* sc-component-id: SellerBody-sc-1e7s9df */
+
+/* sc-component-id: SellerBodyIndeterm-sc-1f79k3w */
+
+/* sc-component-id: LoaderWrapper-sc-9wetll */
+
+/* sc-component-id: LoaderImageWrapper-sc-1mcbscf */
+
+/* sc-component-id: Root-sc-1fhah6b */
+
+/* sc-component-id: Empty-sc-1ny285y */
+
+/* sc-component-id: Loader-sc-14ling6 */
+
+/* sc-component-id: Img-sc-1yr5w7h */
+
+/* sc-component-id: Icon-sc-cw2fg7 */
+
+/* sc-component-id: Svg-sc-1vpgikz */
+
+/* sc-component-id: Cols-sc-3c0sz2 */
+
+/* sc-component-id: Col-sc-1r0myai */
+
+/* sc-component-id: Root-sc-m6t7ru */
+
+/* sc-component-id: FooterTabs-sc-10352lv */
+
+/* sc-component-id: FooterTab-sc-s1tthe */
+
+/* sc-component-id: Main-sc-a4y4ik */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: SidePopup-sc-vlkmbd */
+
+/* sc-component-id: SidePopupWrapper-sc-1vf093f */
+
+/* sc-component-id: ScrolableWrapper-sc-j9brxo */
+
+/* sc-component-id: PopupWrapper-sc-iq6b0x */
+
+/* sc-component-id: Button-sc-1htubho */
+
+/* sc-component-id: WrapperDefault-sc-ymawsj */
+
+/* sc-component-id: Subtitle-sc-5xfso6 */
+
+/* sc-component-id: FeatureTitle-sc-pggv25 */
+
+/* sc-component-id: Arrow-sc-k9f9bd */
+
+/* sc-component-id: Section-sc-1d0pwp1 */
+
+/* sc-component-id: Text-sc-1cnffby */
+
+/* sc-component-id: Wrapper-sc-pck2ra */
+
+/* sc-component-id: Support-sc-16atevj */
+
+/* sc-component-id: Title-sc-1aczkjm */
+
+/* sc-component-id: Wrapper-sc-znaqzz */
+
+/* sc-component-id: sc-global-3953266849 */
+
+/* sc-component-id: Wrapper-sc-10e7os3 */
+
+/* sc-component-id: Arrow-sc-fpqmra */
+
+/* sc-component-id: IconsBlock-sc-gcojgp */
+
+/* sc-component-id: IconBlock-sc-1xb8vzg */
+
+/* sc-component-id: SectionBottom-sc-12vt1wv */
+
+/* sc-component-id: SectionBottomText-sc-1p3ht91 */
+
+/* sc-component-id: SectionFeature-sc-174gh8v */
+
+/* sc-component-id: SectionFeatureTitle-sc-1stg2hr */
+
+/* sc-component-id: SectionIcon-sc-ruexxz */
+
+/* sc-component-id: SectionIconText-sc-16j0dr3 */
+
+/* sc-component-id: SectionIconTitle-sc-uynzbd */
+
+/* sc-component-id: SectionTop-sc-7ykmbk */
+
+/* sc-component-id: Wrapper-sc-1ixfqhv */
+
+/* sc-component-id: PopupSimulator-sc-ukl6i3 */
+
+/* sc-component-id: sc-global-2502207252 */
+@font-face{font-family:'Open Sans Light';font-weight:normal;font-style:normal;src:url("chrome-extension://pfjibkklgpfcfdlhijfglamdnkjnpdeg/assets/fonts/OpenSans-Light.ttf");} @font-face{font-family:'Open Sans Bold';font-weight:normal;font-style:normal;src:url("chrome-extension://pfjibkklgpfcfdlhijfglamdnkjnpdeg/assets/fonts/OpenSans-Bold.ttf");} @font-face{font-family:'Open Sans';font-weight:normal;font-style:normal;src:url("chrome-extension://pfjibkklgpfcfdlhijfglamdnkjnpdeg/assets/fonts/OpenSans-Regular.ttf");} @font-face{font-family:'Open Sans SemiBold';font-weight:normal;font-style:normal;src:url("chrome-extension://pfjibkklgpfcfdlhijfglamdnkjnpdeg/assets/fonts/OpenSans-SemiBold.ttf");} div#gadsf21g{z-index:2147483647!important;font-family:"Open Sans Regular","Open Sans Bold",sans-serif;position:absolute;top:0;left:0;line-height:19px;} div#gadsf21g *{box-sizing:border-box;} div#gadsf21g .tooltip-gadsf21g{background:none;font-size:.8rem;z-index:2147483647;} div#gadsf21g .tooltip-gadsf21g[aria-hidden="true"] > *{opacity:0;-webkit-transition:opacity 0.1s linear;transition:opacity 0.1s linear;} div#gadsf21g .tooltip-gadsf21g[aria-hidden="false"]{-webkit-transition:visibility 0s linear 0.1s;transition:visibility 0s linear 0.1s;} div#gadsf21g .tooltip-gadsf21g[aria-hidden="false"] > *{opacity:1;-webkit-transition:opacity 0.1s ease-in;transition:opacity 0.1s ease-in;} div#gadsf21g .tooltip-gadsf21g .tooltip-inner-gadsf21g{background:#FFF;border-radius:6px;box-shadow:0 7.56098px 15.122px rgba(0,0,0,0.1),3.02439px 3.02439px 3.02439px rgba(0,0,0,0.1),-0.756098px -0.756098px 3.02439px rgba(0,0,0,0.05);width:420px;z-index:1;} div#gadsf21g .tooltip-gadsf21g .tooltip-arrow-gadsf21g{z-index:2;width:40px;height:10px;position:absolute;background-position:-10px -1px;background-image:url(chrome-extension://pfjibkklgpfcfdlhijfglamdnkjnpdeg/assets/img/tooltip_arrow.svg);} div#gadsf21g .tooltip-gadsf21g[x-placement^="top"]{padding-bottom:12px;} div#gadsf21g .tooltip-gadsf21g[x-placement^="top"] .tooltip-arrow-gadsf21g{bottom:2px;left:calc(50% - 30px);} div#gadsf21g .tooltip-gadsf21g[x-placement^="bottom"]{padding-top:12px;} div#gadsf21g .tooltip-gadsf21g[x-placement^="bottom"] .tooltip-arrow-gadsf21g{top:2px;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);left:calc(50% - 30px);} div#gadsf21g .tooltip-gadsf21g[x-placement^="right"]{padding-left:12px;} div#gadsf21g .tooltip-gadsf21g[x-placement^="right"] .tooltip-arrow-gadsf21g{left:-13px;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);top:calc(50% - 30px);} div#gadsf21g .tooltip-gadsf21g[x-placement^="left"]{padding-right:12px;} div#gadsf21g .tooltip-gadsf21g[x-placement^="left"] .tooltip-arrow-gadsf21g{right:-13px;-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);top:calc(50% - 30px);}
+/* sc-component-id: StyledCloseButtonBlock-sc-5c43pp */
+
+/* sc-component-id: Section-sc-1gmqmrz */
+
+/* sc-component-id: PriceSection-sc-fcxmih */
+
+/* sc-component-id: StyledPriceText-sc-1b7ebip */
+
+/* sc-component-id: StyledPriceChangePercentAbsText-sc-1n7yubb */
+
+/* sc-component-id: StyledSeller-sc-z44zzn */
+
+/* sc-component-id: Title-sc-qayf5i */
+
+/* sc-component-id: Icon-sc-1uv37i6 */
+
+/* sc-component-id: Text-sc-i2jk3r */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: StyledButton-sc-12yrw1m */
+
+/* sc-component-id: StyledButton-sc-13wyfcd */
+
+/* sc-component-id: StyledLeftBlock-sc-1gvw3s3 */
+
+/* sc-component-id: StyledRightBlock-sc-u0ws36 */
+
+/* sc-component-id: Root-sc-qanl81 */
+
+/* sc-component-id: StyledSimilar-sc-p949f1 */
+
+/* sc-component-id: StyledSimilarItem-sc-1ods2x9 */
+
+/* sc-component-id: StyledSimilarPriceContainer-sc-w4p2x4 */
+
+/* sc-component-id: StyledSimilarPrice-sc-1ttv8h */
+
+/* sc-component-id: StyledSimilarImgBlock-sc-1p57c8x */
+
+/* sc-component-id: Checked-sc-4hqcei */
+
+/* sc-component-id: StyledRadarLogo-sc-3i5g3f */
+
+/* sc-component-id: ByRadar-sc-mnbkan */
+
+/* sc-component-id: StyledAppBarGear-sc-c8j4zc */
+
+/* sc-component-id: Left-sc-dthyga */
+
+/* sc-component-id: Right-sc-vxzofr */
+
+/* sc-component-id: ImgBlock-sc-1bek4s9 */
+
+/* sc-component-id: StyledInfo-sc-redbj3 */
+
+/* sc-component-id: StyledInfoBody-sc-sf0ioe */
+
+/* sc-component-id: StyledAppBar-sc-lk26ys */
+
+/* sc-component-id: StyledAppBarButtons-sc-1cysyfq */
+
+/* sc-component-id: StyledFooterButtons-sc-3qsj6c */
+
+/* sc-component-id: Text-sc-11c63zi */
+
+/* sc-component-id: VerticalLine-sc-1rpzmbe */
+
+/* sc-component-id: StyledProductRaiting-sc-1mg8uoq */
+
+/* sc-component-id: StyledProductInfo-sc-1os4s8o */
+
+/* sc-component-id: StyledProductRaitingText-sc-bcg983 */
+
+/* sc-component-id: StyledProduct-sc-1jznxav */
+
+/* sc-component-id: StyledProductItem-sc-1a79jta */
+
+/* sc-component-id: StyledProductInfoText-sc-1lu0myx */
+
+/* sc-component-id: HeaderWrapper-sc-1exkoxz */
+
+/* sc-component-id: MoreInfo-sc-hby92f */
+
+/* sc-component-id: HeaderDescription-sc-1iijob7 */
+
+/* sc-component-id: TextRed-sc-2dsgo1 */
+
+/* sc-component-id: TextYellow-sc-1glm2i1 */
+
+/* sc-component-id: ItemListWrapper-sc-1u7vvx3 */
+
+/* sc-component-id: ItemListInnerWrapper-sc-17706ot */
+
+/* sc-component-id: Svg-sc-onzqqb */
+
+/* sc-component-id: StyledButton-sc-1psideo */
+
+/* sc-component-id: ButtonWrapper-sc-s4uq4g */
+</style><style data-styled="" data-styled-version="4.4.1">
+/* sc-component-id: HighlightedButton-sc-eyrg3y */
+
+/* sc-component-id: TransparentButton-sc-orcc60 */
+
+/* sc-component-id: QuestionSpan-sc-koy1k2 */
+
+/* sc-component-id: GearIconWrapper-sc-z3hzls */
+
+/* sc-component-id: Svg-sc-1id8hi5 */
+
+/* sc-component-id: OpenButton-sc-jrwc8v */
+
+/* sc-component-id: ArrowWrapper-sc-6g3g8y */
+
+/* sc-component-id: GearWrapper-sc-1m4cqpj */
+
+/* sc-component-id: IconWrapper-sc-12mpnoa */
+
+/* sc-component-id: TextWrapper-sc-1ibzgyr */
+
+/* sc-component-id: LogoWrapper-sc-sh5v6z */
+
+/* sc-component-id: FooterWrapper-sc-ishrf3 */
+
+/* sc-component-id: ArrowWrapper-sc-133cowa */
+
+/* sc-component-id: CategoriesWrapper-sc-md0fl2 */
+
+/* sc-component-id: CategoriesWrapperInner-sc-elzy41 */
+
+/* sc-component-id: CategoryItem-sc-u65cg0 */
+
+/* sc-component-id: CategoryMore-sc-1n7d9dw */
+
+/* sc-component-id: CloseIconWrapper-sc-1bx3yxk */
+
+/* sc-component-id: ItemInfoWrapper-sc-yyftsr */
+
+/* sc-component-id: ItemInfoText-sc-1uojsw1 */
+
+/* sc-component-id: ItemInfoCurrency-sc-e8gghu */
+
+/* sc-component-id: ItemInfoName-sc-vnc7zp */
+
+/* sc-component-id: ItemInfoImageWraper-sc-17s8lc1 */
+
+/* sc-component-id: WidgetArea-sc-65xq34 */
+
+/* sc-component-id: WidgetWrapper-sc-tzxiwm */
+
+/* sc-component-id: OutsideClick-sc-et3k2q */
+
+/* sc-component-id: Button-sc-1dwguyr */
+</style><style type="text/css">.apexcharts-canvas {
+  position: relative;
+  user-select: none;
+  /* cannot give overflow: hidden as it will crop tooltips which overflow outside chart area */
+}
+
+
+/* scrollbar is not visible by default for legend, hence forcing the visibility */
+.apexcharts-canvas ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+}
+
+.apexcharts-canvas ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+.apexcharts-inner {
+  position: relative;
+}
+
+.apexcharts-text tspan {
+  font-family: inherit;
+}
+
+.legend-mouseover-inactive {
+  transition: 0.15s ease all;
+  opacity: 0.20;
+}
+
+.apexcharts-series-collapsed {
+  opacity: 0;
+}
+
+.apexcharts-tooltip {
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px -4px #999;
+  cursor: default;
+  font-size: 14px;
+  left: 62px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 12;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-tooltip.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+  border: 1px solid #e3e3e3;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.apexcharts-tooltip.apexcharts-theme-dark {
+  color: #fff;
+  background: rgba(30, 30, 30, 0.8);
+}
+
+.apexcharts-tooltip * {
+  font-family: inherit;
+}
+
+
+.apexcharts-tooltip-title {
+  padding: 6px;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  background: #ECEFF1;
+  border-bottom: 1px solid #ddd;
+}
+
+.apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-title {
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid #333;
+}
+
+.apexcharts-tooltip-text-value,
+.apexcharts-tooltip-text-z-value {
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.apexcharts-tooltip-text-z-label:empty,
+.apexcharts-tooltip-text-z-value:empty {
+  display: none;
+}
+
+.apexcharts-tooltip-text-value,
+.apexcharts-tooltip-text-z-value {
+  font-weight: 600;
+}
+
+.apexcharts-tooltip-marker {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.apexcharts-tooltip-series-group {
+  padding: 0 10px;
+  display: none;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+}
+
+.apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+  opacity: 1;
+}
+
+.apexcharts-tooltip-series-group.apexcharts-active,
+.apexcharts-tooltip-series-group:last-child {
+  padding-bottom: 4px;
+}
+
+.apexcharts-tooltip-series-group-hidden {
+  opacity: 0;
+  height: 0;
+  line-height: 0;
+  padding: 0 !important;
+}
+
+.apexcharts-tooltip-y-group {
+  padding: 6px 0 5px;
+}
+
+.apexcharts-tooltip-box, .apexcharts-custom-tooltip {
+  padding: 4px 8px;
+}
+
+.apexcharts-tooltip-boxPlot {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.apexcharts-tooltip-box>div {
+  margin: 4px 0;
+}
+
+.apexcharts-tooltip-box span.value {
+  font-weight: bold;
+}
+
+.apexcharts-tooltip-rangebar {
+  padding: 5px 8px;
+}
+
+.apexcharts-tooltip-rangebar .category {
+  font-weight: 600;
+  color: #777;
+}
+
+.apexcharts-tooltip-rangebar .series-name {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.apexcharts-xaxistooltip {
+  opacity: 0;
+  padding: 9px 10px;
+  pointer-events: none;
+  color: #373d3f;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  background: #ECEFF1;
+  border: 1px solid #90A4AE;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-xaxistooltip.apexcharts-theme-dark {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.apexcharts-xaxistooltip:after,
+.apexcharts-xaxistooltip:before {
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.apexcharts-xaxistooltip:after {
+  border-color: rgba(236, 239, 241, 0);
+  border-width: 6px;
+  margin-left: -6px;
+}
+
+.apexcharts-xaxistooltip:before {
+  border-color: rgba(144, 164, 174, 0);
+  border-width: 7px;
+  margin-left: -7px;
+}
+
+.apexcharts-xaxistooltip-bottom:after,
+.apexcharts-xaxistooltip-bottom:before {
+  bottom: 100%;
+}
+
+.apexcharts-xaxistooltip-top:after,
+.apexcharts-xaxistooltip-top:before {
+  top: 100%;
+}
+
+.apexcharts-xaxistooltip-bottom:after {
+  border-bottom-color: #ECEFF1;
+}
+
+.apexcharts-xaxistooltip-bottom:before {
+  border-bottom-color: #90A4AE;
+}
+
+.apexcharts-xaxistooltip-bottom.apexcharts-theme-dark:after {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-bottom.apexcharts-theme-dark:before {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-top:after {
+  border-top-color: #ECEFF1
+}
+
+.apexcharts-xaxistooltip-top:before {
+  border-top-color: #90A4AE;
+}
+
+.apexcharts-xaxistooltip-top.apexcharts-theme-dark:after {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-top.apexcharts-theme-dark:before {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-yaxistooltip {
+  opacity: 0;
+  padding: 4px 10px;
+  pointer-events: none;
+  color: #373d3f;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  background: #ECEFF1;
+  border: 1px solid #90A4AE;
+}
+
+.apexcharts-yaxistooltip.apexcharts-theme-dark {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.apexcharts-yaxistooltip:after,
+.apexcharts-yaxistooltip:before {
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.apexcharts-yaxistooltip:after {
+  border-color: rgba(236, 239, 241, 0);
+  border-width: 6px;
+  margin-top: -6px;
+}
+
+.apexcharts-yaxistooltip:before {
+  border-color: rgba(144, 164, 174, 0);
+  border-width: 7px;
+  margin-top: -7px;
+}
+
+.apexcharts-yaxistooltip-left:after,
+.apexcharts-yaxistooltip-left:before {
+  left: 100%;
+}
+
+.apexcharts-yaxistooltip-right:after,
+.apexcharts-yaxistooltip-right:before {
+  right: 100%;
+}
+
+.apexcharts-yaxistooltip-left:after {
+  border-left-color: #ECEFF1;
+}
+
+.apexcharts-yaxistooltip-left:before {
+  border-left-color: #90A4AE;
+}
+
+.apexcharts-yaxistooltip-left.apexcharts-theme-dark:after {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-left.apexcharts-theme-dark:before {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-right:after {
+  border-right-color: #ECEFF1;
+}
+
+.apexcharts-yaxistooltip-right:before {
+  border-right-color: #90A4AE;
+}
+
+.apexcharts-yaxistooltip-right.apexcharts-theme-dark:after {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-right.apexcharts-theme-dark:before {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip.apexcharts-active {
+  opacity: 1;
+}
+
+.apexcharts-yaxistooltip-hidden {
+  display: none;
+}
+
+.apexcharts-xcrosshairs,
+.apexcharts-ycrosshairs {
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-xcrosshairs.apexcharts-active,
+.apexcharts-ycrosshairs.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-ycrosshairs-hidden {
+  opacity: 0;
+}
+
+.apexcharts-selection-rect {
+  cursor: move;
+}
+
+.svg_select_boundingRect, .svg_select_points_rot {
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.apexcharts-selection-rect + g .svg_select_boundingRect,
+.apexcharts-selection-rect + g .svg_select_points_rot {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.apexcharts-selection-rect + g .svg_select_points_l,
+.apexcharts-selection-rect + g .svg_select_points_r {
+  cursor: ew-resize;
+  opacity: 1;
+  visibility: visible;
+}
+
+.svg_select_points {
+  fill: #efefef;
+  stroke: #333;
+  rx: 2;
+}
+
+.apexcharts-svg.apexcharts-zoomable.hovering-zoom {
+  cursor: crosshair
+}
+
+.apexcharts-svg.apexcharts-zoomable.hovering-pan {
+  cursor: move
+}
+
+.apexcharts-zoom-icon,
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon,
+.apexcharts-reset-icon,
+.apexcharts-pan-icon,
+.apexcharts-selection-icon,
+.apexcharts-menu-icon,
+.apexcharts-toolbar-custom-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  line-height: 24px;
+  color: #6E8192;
+  text-align: center;
+}
+
+.apexcharts-zoom-icon svg,
+.apexcharts-zoomin-icon svg,
+.apexcharts-zoomout-icon svg,
+.apexcharts-reset-icon svg,
+.apexcharts-menu-icon svg {
+  fill: #6E8192;
+}
+
+.apexcharts-selection-icon svg {
+  fill: #444;
+  transform: scale(0.76)
+}
+
+.apexcharts-theme-dark .apexcharts-zoom-icon svg,
+.apexcharts-theme-dark .apexcharts-zoomin-icon svg,
+.apexcharts-theme-dark .apexcharts-zoomout-icon svg,
+.apexcharts-theme-dark .apexcharts-reset-icon svg,
+.apexcharts-theme-dark .apexcharts-pan-icon svg,
+.apexcharts-theme-dark .apexcharts-selection-icon svg,
+.apexcharts-theme-dark .apexcharts-menu-icon svg,
+.apexcharts-theme-dark .apexcharts-toolbar-custom-icon svg {
+  fill: #f3f4f5;
+}
+
+.apexcharts-canvas .apexcharts-zoom-icon.apexcharts-selected svg,
+.apexcharts-canvas .apexcharts-selection-icon.apexcharts-selected svg,
+.apexcharts-canvas .apexcharts-reset-zoom-icon.apexcharts-selected svg {
+  fill: #008FFB;
+}
+
+.apexcharts-theme-light .apexcharts-selection-icon:not(.apexcharts-selected):hover svg,
+.apexcharts-theme-light .apexcharts-zoom-icon:not(.apexcharts-selected):hover svg,
+.apexcharts-theme-light .apexcharts-zoomin-icon:hover svg,
+.apexcharts-theme-light .apexcharts-zoomout-icon:hover svg,
+.apexcharts-theme-light .apexcharts-reset-icon:hover svg,
+.apexcharts-theme-light .apexcharts-menu-icon:hover svg {
+  fill: #333;
+}
+
+.apexcharts-selection-icon,
+.apexcharts-menu-icon {
+  position: relative;
+}
+
+.apexcharts-reset-icon {
+  margin-left: 5px;
+}
+
+.apexcharts-zoom-icon,
+.apexcharts-reset-icon,
+.apexcharts-menu-icon {
+  transform: scale(0.85);
+}
+
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon {
+  transform: scale(0.7)
+}
+
+.apexcharts-zoomout-icon {
+  margin-right: 3px;
+}
+
+.apexcharts-pan-icon {
+  transform: scale(0.62);
+  position: relative;
+  left: 1px;
+  top: 0px;
+}
+
+.apexcharts-pan-icon svg {
+  fill: #fff;
+  stroke: #6E8192;
+  stroke-width: 2;
+}
+
+.apexcharts-pan-icon.apexcharts-selected svg {
+  stroke: #008FFB;
+}
+
+.apexcharts-pan-icon:not(.apexcharts-selected):hover svg {
+  stroke: #333;
+}
+
+.apexcharts-toolbar {
+  position: absolute;
+  z-index: 11;
+  max-width: 176px;
+  text-align: right;
+  border-radius: 3px;
+  padding: 0px 6px 2px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apexcharts-menu {
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 3px;
+  right: 10px;
+  opacity: 0;
+  min-width: 110px;
+  transition: 0.15s ease all;
+  pointer-events: none;
+}
+
+.apexcharts-menu.apexcharts-menu-open {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-menu-item {
+  padding: 6px 7px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.apexcharts-theme-light .apexcharts-menu-item:hover {
+  background: #eee;
+}
+
+.apexcharts-theme-dark .apexcharts-menu {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .apexcharts-canvas:hover .apexcharts-toolbar {
+    opacity: 1;
+  }
+}
+
+.apexcharts-datalabel.apexcharts-element-hidden {
+  opacity: 0;
+}
+
+.apexcharts-pie-label,
+.apexcharts-datalabels,
+.apexcharts-datalabel,
+.apexcharts-datalabel-label,
+.apexcharts-datalabel-value {
+  cursor: default;
+  pointer-events: none;
+}
+
+.apexcharts-pie-label-delay {
+  opacity: 0;
+  animation-name: opaque;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.apexcharts-canvas .apexcharts-element-hidden {
+  opacity: 0;
+}
+
+.apexcharts-hide .apexcharts-series-points {
+  opacity: 0;
+}
+
+.apexcharts-gridline,
+.apexcharts-annotation-rect,
+.apexcharts-tooltip .apexcharts-marker,
+.apexcharts-area-series .apexcharts-area,
+.apexcharts-line,
+.apexcharts-zoom-rect,
+.apexcharts-toolbar svg,
+.apexcharts-area-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events,
+.apexcharts-line-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events,
+.apexcharts-radar-series path,
+.apexcharts-radar-series polygon {
+  pointer-events: none;
+}
+
+
+/* markers */
+
+.apexcharts-marker {
+  transition: 0.15s ease all;
+}
+
+@keyframes opaque {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Resize generated styles */
+
+@keyframes resizeanim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.resize-triggers {
+  animation: 1ms resizeanim;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.resize-triggers,
+.resize-triggers>div,
+.contract-trigger:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resize-triggers>div {
+  background: #eee;
+  overflow: auto;
+}
+
+.contract-trigger:before {
+  width: 200%;
+  height: 200%;
+}</style></head><body><div onclick="PopCalendar.bShow=true" id="calendar" style="z-index: 999; position: absolute; visibility: hidden; left: 0px; top: 0px;"><table width="250" style="font-family:arial;border: solid 1px #a0a0a0;" bgcolor="#ffffff"><tbody><tr bgcolor="#2F97E0" style="opacity:.8"><td style="padding:10px"><table width="248"><tbody><tr><td style="padding:2px;font-family:arial; font-size:11px;"><font color="#ffffff"><b><span id="caption" style="font: 14px/1.25em Tahoma, sans-serif; font-weight: bold;"><span id="spanLeft" style="cursor:pointer" onmouseover="this.style.borderColor=&quot;#88AAFF&quot;;window.status=&quot;Click to scroll to previous month. Hold mouse button to scroll automatically.&quot;" onclick="PopCalendar.decMonth();return false" onmouseout="clearInterval(PopCalendar.intervalID1);this.style.borderColor=&quot;#3366FF&quot;;window.status=&quot;&quot;" onmousedown="clearTimeout(PopCalendar.timeoutID1);PopCalendar.timeoutID1=setTimeout(&quot;PopCalendar.StartDecMonth()&quot;,500)" onmouseup="clearTimeout(PopCalendar.timeoutID1);clearInterval(PopCalendar.intervalID1)">&nbsp;<img src="./Электронный документооборот_files/cal_arrow_l.png" style="color:#fff; height: 12px; width: 8px; display: inline-block !important;">&nbsp;</span>&nbsp;<span id="spanRight" style="cursor:pointer" onmouseover="this.style.borderColor=&quot;#88AAFF&quot;;window.status=&quot;Click to scroll to next month. Hold mouse button to scroll automatically.&quot;" onmouseout="clearInterval(PopCalendar.intervalID1);this.style.borderColor=&quot;#3366FF&quot;;window.status=&quot;&quot;" onclick="PopCalendar.incMonth()" onmousedown="clearTimeout(PopCalendar.timeoutID1);PopCalendar.timeoutID1=setTimeout(&quot;PopCalendar.StartIncMonth()&quot;,500)" onmouseup="clearTimeout(PopCalendar.timeoutID1);clearInterval(PopCalendar.intervalID1)">&nbsp;<img src="./Электронный документооборот_files/cal_arrow_r.png" style="color:#fff; height: 12px; width: 8px; display: inline-block !important;">&nbsp;</span>&nbsp;<span id="spanMonth" style="cursor:pointer; " onmouseover="this.style.borderColor=&quot;#88AAFF&quot;;window.status=&quot;Click to select a month.&quot;" onmouseout="this.style.borderColor=&quot;#3366FF&quot;;window.status=&quot;&quot;" onclick="PopCalendar.popUpMonth()"></span>&nbsp;<span id="spanYear" style="cursor:pointer; " onmouseover="this.style.borderColor=&quot;#88AAFF&quot;;window.status=&quot;Click to select a year.&quot;" onmouseout="this.style.borderColor=&quot;#3366FF&quot;;window.status=&quot;&quot;" onclick="PopCalendar.popUpYear()"></span>&nbsp;</span></b></font></td><td align="right"><a href="https://doc.matfmc.ru/auth.php?uri=%2F#" style="text-decoration: none" onclick="PopCalendar.hideCalendar();return false"><img src="./Электронный документооборот_files/cal_close_btn.png" style="height: 12px; width: 12px;"></a></td></tr></tbody></table></td></tr><tr><td style="padding:15px" bgcolor="#ffffff"><span id="content"></span></td></tr><tr bgcolor="#f0f0f0"><td style="padding:10px;" align="center"><span id="lblToday" style="font-size:12px">Сегодня  <a onmousemove="window.status=&quot;Go To Current Month&quot;" onmouseout="window.status=&quot;&quot;" title="Go To Current Month" style="text-decoration:none;color:black;" href="https://doc.matfmc.ru/auth.php?uri=%2F#" onclick="PopCalendar.monthSelected=PopCalendar.monthNow;PopCalendar.yearSelected=PopCalendar.yearNow;PopCalendar.constructCalendar();return false">Вс, 1 Авг	2021</a></span></td></tr></tbody></table></div><div id="selectMonth" style="z-index:+999;position:absolute;visibility:hidden;"></div><div id="selectYear" style="z-index:+999;position:absolute;visibility:hidden;"></div><div id="axFPopup" class="att2" style="position:absolute; display: none; z-index:500"></div>
+
+
+<script>
+        $(function () {
+        $.fn.selectRange = function (start, end) {
+            if (!end) end = start;
+            return this.each(function () {
+                if (this.setSelectionRange) {
+                    this.focus();
+                    this.setSelectionRange(start, end);
+                } else if (this.createTextRange) {
+                    var range = this.createTextRange();
+                    range.collapse(true);
+                    range.moveEnd('character', end);
+                    range.moveStart('character', start);
+                    range.select();
+                }
+            });
+        };
+
+
+        $('.has_placeholder').placeholder();
+        var availableOrganizations = [{"label":"","id":"0","type":"group"},{"label":"Алтайский ЦОВД","id":"59791","type":"group"},{"label":"Анадырский центр ОВД","id":"63518","type":"group"},{"label":"Архангельский ЦОВД","id":"62813","type":"group"},{"label":"Астраханский ЦОВД","id":"59894","type":"group"},{"label":"Батагайский центр ОВД","id":"62993","type":"group"},{"label":"Башкирский ЦОВД","id":"63116","type":"group"},{"label":"Белгородский ЦОВД","id":"59032","type":"group"},{"label":"Белоярское отделение","id":"62965","type":"group"},{"label":"Березовское отделение","id":"62966","type":"group"},{"label":"Благовещенский ЦОВД","id":"62318","type":"group"},{"label":"Бодайбинский ЦОВД","id":"63029","type":"group"},{"label":"Братский ЦОВД","id":"63030","type":"group"},{"label":"Бугульминский ЦОВД","id":"62939","type":"group"},{"label":"Владивостокский ЦОВД","id":"62316","type":"group"},{"label":"Владикавказский ЦОВД","id":"59895","type":"group"},{"label":"Внуковский ЦОВД","id":"59038","type":"group"},{"label":"Волгоградский ЦОВД","id":"59896","type":"group"},{"label":"Вологодский ЦОВД","id":"62814","type":"group"},{"label":"Воркутинский ЦОВД","id":"62913","type":"group"},{"label":"Воронежский ЦОВД","id":"59033","type":"group"},{"label":"Геленджикское отделение Таманского ЦОВД","id":"59907","type":"group"},{"label":"Горно-Алтайское отделение Алтайского ЦОВД","id":"62873","type":"group"},{"label":"Грозненский ЦОВД","id":"59898","type":"group"},{"label":"Домодедовский ЦОВД","id":"59039","type":"group"},{"label":"Екатеринбургский ЦОВД филиала \"Аэронавигация Урала\"","id":"59807","type":"group"},{"label":"Ещё разработчики","id":"62409","type":"group"},{"label":"Жиганское отделение","id":"63002","type":"group"},{"label":"Зырянский центр ОВД","id":"62994","type":"group"},{"label":"Ижевский ЦОВД филиала \"Аэронавигация Урала\"","id":"59811","type":"group"},{"label":"Калининградский ЦОВД","id":"60681","type":"group"},{"label":"Калужский ЦОВД","id":"59035","type":"group"},{"label":"Кемеровское отделение Кузбасского ЦОВД","id":"62875","type":"group"},{"label":"Кепервеемский центр ОВД","id":"63519","type":"group"},{"label":"Киренский ЦОВД","id":"63031","type":"group"},{"label":"Кировский ЦОВД филиала \"Аэронавигация Урала\"","id":"59812","type":"group"},{"label":"Когалымское отделение","id":"62967","type":"group"},{"label":"Комсомольский-на-Амуре ЦОВД","id":"62315","type":"group"},{"label":"Котласское отделение","id":"63400","type":"group"},{"label":"Красноселькупское отделение","id":"62968","type":"group"},{"label":"Красноярский ЦОВД","id":"63809","type":"group"},{"label":"Кубанский ЦОВД","id":"59899","type":"group"},{"label":"Кузбасский ЦОВД","id":"59790","type":"group"},{"label":"Курганский ЦОВД филиала \"Аэронавигация Урала\"","id":"59813","type":"group"},{"label":"Курское отделение Белгородского ЦОВД","id":"74578","type":"group"},{"label":"Лешуконское отделение","id":"63401","type":"group"},{"label":"Липецкое отделение Воронежского ЦОВД","id":"59037","type":"group"},{"label":"Магаданский центр ОВД","id":"63515","type":"group"},{"label":"Маганское отделение","id":"63003","type":"group"},{"label":"Магасский ЦОВД","id":"59901","type":"group"},{"label":"Магнитогорский ЦОВД филиала \"Аэронавигация Урала\"","id":"59810","type":"group"},{"label":"Майкопское подразделение Кубанского ЦОВД","id":"59900","type":"group"},{"label":"Межсерверность ГК (тест)","id":"69716","type":"group"},{"label":"Минераловодский Центр ОВД","id":"59902","type":"group"},{"label":"Мирнинский центр ОВД","id":"62995","type":"group"},{"label":"Мурманский ЦОВД","id":"62815","type":"group"},{"label":"Мыс Каменское отделение","id":"62969","type":"group"},{"label":"Набережно-Челнинский ЦОВД","id":"62940","type":"group"},{"label":"Надымский ЦОВД","id":"50002","type":"group"},{"label":"Нальчикский ЦОВД","id":"59904","type":"group"},{"label":"Нарьян-Марское отделение","id":"63402","type":"group"},{"label":"Нерюнгринский центр ОВД","id":"62996","type":"group"},{"label":"Нижегородский ЦОВД","id":"59040","type":"group"},{"label":"Нижневартовский ЦОВД","id":"50188","type":"group"},{"label":"Нижнеудинское отделение","id":"63073","type":"group"},{"label":"Николаевский-на-Амуре ЦОВД","id":"62317","type":"group"},{"label":"Новосибирский ЦОВД","id":"59789","type":"group"},{"label":"Новоуренгойский ЦОВД","id":"62942","type":"group"},{"label":"НОУ ДПО \"Институт Аэронавигации\"","id":"63498","type":"group"},{"label":"Ноябрьский ЦОВД","id":"62945","type":"group"},{"label":"Нюрбинский центр ОВД","id":"62997","type":"group"},{"label":"Няганское отделение","id":"62970","type":"group"},{"label":"Олекминский центр ОВД","id":"62998","type":"group"},{"label":"Омский ЦОВД","id":"59788","type":"group"},{"label":"Организация № 1","id":"33147","type":"group"},{"label":"Организация № 2","id":"58289","type":"group"},{"label":"Оренбургский ЦОВД","id":"63117","type":"group"},{"label":"Орловское отделение Калужского ЦОВД","id":"59036","type":"group"},{"label":"Орский ЦОВД","id":"63118","type":"group"},{"label":"Охотское отделение Николаевского-на-Амуре центра ОВД","id":"67919","type":"group"},{"label":"Певекский центр ОВД","id":"63520","type":"group"},{"label":"Пензенский ЦОВД","id":"63021","type":"group"},{"label":"Пермский ЦОВД филиала \"Аэронавигация Урала\"","id":"59808","type":"group"},{"label":"Петрозаводский ЦОВД","id":"62826","type":"group"},{"label":"Печорский ЦОВД","id":"62914","type":"group"},{"label":"Прикаспийский ЦОВД","id":"59905","type":"group"},{"label":"Псковский ЦОВД","id":"62817","type":"group"},{"label":"Разработчики","id":"3","type":"group"},{"label":"Саратовский ЦОВД","id":"63119","type":"group"},{"label":"Сасовское отделение Воронежского ЦОВД","id":"63235","type":"group"},{"label":"Сахалинский ЦОВД","id":"62319","type":"group"},{"label":"Сеймчанский центр ОВД","id":"63516","type":"group"},{"label":"Советское отделение","id":"62971","type":"group"},{"label":"СПб ЦОВД","id":"62818","type":"group"},{"label":"Ставропольское отделение Минераловодского ЦОВД","id":"59903","type":"group"},{"label":"Стрежевской ЦОВД","id":"59792","type":"group"},{"label":"Сургутский ЦОВД","id":"62944","type":"group"},{"label":"Тазовское отделение","id":"62972","type":"group"},{"label":"Таманский ЦОВД","id":"59906","type":"group"},{"label":"Тарко-Салинский ЦОВД","id":"62946","type":"group"},{"label":"Тверской ЦОВД","id":"59030","type":"group"},{"label":"Тест Алмаз-Антей","id":"59497","type":"group"},{"label":"Тиксинский центр ОВД","id":"62999","type":"group"},{"label":"Тобольское отделение","id":"62973","type":"group"},{"label":"Тоже Разработчики","id":"62411","type":"group"},{"label":"Томский ЦОВД","id":"59787","type":"group"},{"label":"Тюменский укрупненный центр","id":"56212","type":"group"},{"label":"Тюменский ЦОВД","id":"62943","type":"group"},{"label":"Улан-Удэнский ЦОВД","id":"63032","type":"group"},{"label":"Ульяновский ЦОВД","id":"63120","type":"group"},{"label":"Урайское отделение","id":"62974","type":"group"},{"label":"Усинский ЦОВД","id":"62916","type":"group"},{"label":"Усть-Кутский ЦОВД","id":"63033","type":"group"},{"label":"Усть-Майское отделение","id":"63004","type":"group"},{"label":"Усть-Нерское отделение","id":"64184","type":"group"},{"label":"Ухтинский ЦОВД","id":"62915","type":"group"},{"label":"ФГУП \"Госкорпорация по ОрВД\"","id":"33125","type":"group"},{"label":"Филиал «Аэроконтроль»","id":"33143","type":"group"},{"label":"Филиал «Аэронавигация Восточной Сибири»","id":"33129","type":"group"},{"label":"Филиал «Аэронавигация Дальнего Востока»","id":"33130","type":"group"},{"label":"Филиал «Аэронавигация Западной Сибири»","id":"33131","type":"group"},{"label":"Филиал «Аэронавигация Севера Сибири»","id":"33132","type":"group"},{"label":"Филиал «Аэронавигация Северного Урала»","id":"33133","type":"group"},{"label":"Филиал «Аэронавигация Северо-Востока»","id":"33134","type":"group"},{"label":"Филиал «Аэронавигация Северо-Восточной Сибири»","id":"33135","type":"group"},{"label":"Филиал «Аэронавигация Северо-Запада»","id":"33136","type":"group"},{"label":"Филиал «Аэронавигация Урала»","id":"33137","type":"group"},{"label":"Филиал «Аэронавигация Центральной Волги»","id":"33138","type":"group"},{"label":"Филиал «Аэронавигация Центральной Сибири»","id":"33139","type":"group"},{"label":"Филиал «Аэронавигация Юга»","id":"33140","type":"group"},{"label":"Филиал «Камчатаэронавигация»","id":"33141","type":"group"},{"label":"Филиал «Крымаэронавигация»","id":"33144","type":"group"},{"label":"Филиал «Московский центр автоматизированного управления воздушным движением»","id":"33128","type":"group"},{"label":"Филиал «Татаэронавигация»","id":"33142","type":"group"},{"label":"Филиал «Центр аэронавигационной информации»","id":"33146","type":"group"},{"label":"Филиал «Центр радиотехнического оборудования и связи гражданской авиации»","id":"33145","type":"group"},{"label":"Хабаровский ЦОВД","id":"62320","type":"group"},{"label":"Хандыгское отделение","id":"63005","type":"group"},{"label":"Челябинский ЦОВД филиала \"Аэронавигация Урала\"","id":"59809","type":"group"},{"label":"Черноморский ЦОВД","id":"59908","type":"group"},{"label":"Черский центр ОВД","id":"63000","type":"group"},{"label":"Читинский ЦОВД","id":"63052","type":"group"},{"label":"Чокурдахский центр ОВД","id":"63001","type":"group"},{"label":"Чувашский ЦОВД","id":"63121","type":"group"},{"label":"Шереметьевский ЦОВД","id":"59041","type":"group"},{"label":"Шмидтовский центр ОВД","id":"63521","type":"group"},{"label":"Элистинское отделение Волгоградского ЦОВД","id":"59897","type":"group"},{"label":"Югорский ЦОВД","id":"58088","type":"group"},{"label":"Южный ЦОВД","id":"59909","type":"group"},{"label":"Ямальский ЦОВД","id":"62941","type":"group"},{"label":"Ярославское отделение Тверского ЦОВД","id":"59031","type":"group"}];
+        var availableLogins = [{"label":"Автамонов М.А.","id":"90212","type":"group"},{"label":"Агеенко О.В.","id":"90218","type":"group"},{"label":"Аникин Д.А.","id":"98196","type":"group"},{"label":"Арнаутов А.А.","id":"90226","type":"group"},{"label":"Баженов А.С.","id":"80183","type":"group"},{"label":"Баранов А.Р.","id":"90879","type":"group"},{"label":"Баринберг И.К.","id":"100179","type":"group"},{"label":"Бачило В.С.","id":"121594","type":"group"},{"label":"Белкин А.А.","id":"80170","type":"group"},{"label":"Белова О.В.","id":"80159","type":"group"},{"label":"Бердов М.Ю.","id":"90229","type":"group"},{"label":"Бирюкова К.В.","id":"99232","type":"group"},{"label":"Блинова С.А.","id":"90214","type":"group"},{"label":"Брусницына С.А.","id":"97507","type":"group"},{"label":"Будылина С.П.","id":"126656","type":"group"},{"label":"Бунькова С.А.","id":"104466","type":"group"},{"label":"Бурдуков И.И.","id":"80181","type":"group"},{"label":"Бутакова Е.А.","id":"99879","type":"group"},{"label":"Вагапов Р.Р.","id":"98194","type":"group"},{"label":"Василевич Е.А.","id":"127011","type":"group"},{"label":"Васильев М.А.","id":"126537","type":"group"},{"label":"Волков М.С.","id":"125438","type":"group"},{"label":"Вотин В.А.","id":"126990","type":"group"},{"label":"Галеева Н.В.","id":"96627","type":"group"},{"label":"Гарминович Л.А.","id":"127037","type":"group"},{"label":"Гладских В.В.","id":"85274","type":"group"},{"label":"Горбачевская Е.Н.","id":"88693","type":"group"},{"label":"Гордеев С.В.","id":"126986","type":"group"},{"label":"Гребнев О.И.","id":"120614","type":"group"},{"label":"Гурбанова Н.Н.","id":"91392","type":"group"},{"label":"Деев С.А.","id":"126971","type":"group"},{"label":"Денисов С.В.","id":"80194","type":"group"},{"label":"Дербышева Н.И.","id":"99237","type":"group"},{"label":"Директор филиала","id":"118478","type":"group"},{"label":"Долматов А.В.","id":"126295","type":"group"},{"label":"Дроздецкая А.С.","id":"91390","type":"group"},{"label":"Жулидов М.С.","id":"81243","type":"group"},{"label":"Зорин Ю.В.","id":"121842","type":"group"},{"label":"Ивакина Я.В.","id":"98061","type":"group"},{"label":"Ивонин А.В.","id":"127020","type":"group"},{"label":"Илюшина М.С.","id":"97850","type":"group"},{"label":"Ищенко А.В.","id":"98748","type":"group"},{"label":"Ищенко Л.Е.","id":"102322","type":"group"},{"label":"Калинин О.В.","id":"80167","type":"group"},{"label":"Каношин О.Г.","id":"80173","type":"group"},{"label":"Капкан Е.Г.","id":"99236","type":"group"},{"label":"Карачурин Р.Ш.","id":"80163","type":"group"},{"label":"Климов В.Г.","id":"100861","type":"group"},{"label":"Кобзева Е.В.","id":"91394","type":"group"},{"label":"Коваленко А.А.","id":"99876","type":"group"},{"label":"Колобов Д.М.","id":"80193","type":"group"},{"label":"Колосов А.Ю.","id":"90235","type":"group"},{"label":"Комарова Ю.А.","id":"80198","type":"group"},{"label":"Кормышев А.М.","id":"80168","type":"group"},{"label":"Корниенко А.В.","id":"90228","type":"group"},{"label":"Королёв Д.В.","id":"90227","type":"group"},{"label":"Кощеев А.С.","id":"96623","type":"group"},{"label":"Кривошеев И.И.","id":"80169","type":"group"},{"label":"Кривощекова Е.В.","id":"80186","type":"group"},{"label":"Крохалева Ю.В.","id":"80189","type":"group"},{"label":"Куклин В.М.","id":"90210","type":"group"},{"label":"Кулакова Н.А.","id":"80157","type":"group"},{"label":"Кулаков В.Ю.","id":"127047","type":"group"},{"label":"Кулаков Ю.А.","id":"80166","type":"group"},{"label":"Купцов В.Н.","id":"80156","type":"group"},{"label":"Курбатова О.В.","id":"80188","type":"group"},{"label":"Курочкин С.П.","id":"80164","type":"group"},{"label":"Лабыцина Т.Р.","id":"88555","type":"group"},{"label":"Лаптев С.А.","id":"80195","type":"group"},{"label":"Лебедева Е.С.","id":"80190","type":"group"},{"label":"Лимонцева О.С.","id":"99238","type":"group"},{"label":"Лисовая Н.О.","id":"89486","type":"group"},{"label":"Локтина А.П.","id":"80179","type":"group"},{"label":"Лучкин Ю.В.","id":"90224","type":"group"},{"label":"Лушников Н.Н.","id":"98777","type":"group"},{"label":"Любарцева В.В.","id":"100758","type":"group"},{"label":"Лялин В.Б.","id":"90230","type":"group"},{"label":"Ляпшин Н.Г.","id":"98612","type":"group"},{"label":"Макамбаева З.А.","id":"91393","type":"group"},{"label":"Макаров А.П.","id":"90234","type":"group"},{"label":"Макаров В.Д.","id":"80177","type":"group"},{"label":"Масленников В.Л.","id":"126659","type":"group"},{"label":"Матвеева Н.В.","id":"80184","type":"group"},{"label":"Меньшенин Н.Ю.","id":"123780","type":"group"},{"label":"Меньшенин Ю.Ю.","id":"80180","type":"group"},{"label":"Метляков С.В.","id":"83893","type":"group"},{"label":"Минеева Н.И.","id":"104319","type":"group"},{"label":"Миронова Л.П.","id":"90217","type":"group"},{"label":"Молодцова Е.В.","id":"96467","type":"group"},{"label":"Никонов С.М.","id":"90211","type":"group"},{"label":"Новикова Т.В.","id":"80192","type":"group"},{"label":"Обухова Ю.В.","id":"99235","type":"group"},{"label":"Овчаров А.В.","id":"80165","type":"group"},{"label":"Овчинников А.С.","id":"98617","type":"group"},{"label":"Ошивалова И.Н.","id":"80160","type":"group"},{"label":"Первухина Т.Ю.","id":"90231","type":"group"},{"label":"Первый зам. директора филиала","id":"121413","type":"group"},{"label":"Пивцова О.В.","id":"91389","type":"group"},{"label":"Пилявская Е.В.","id":"98812","type":"group"},{"label":"Попов Н.Ю.","id":"126972","type":"group"},{"label":"Прокофьева Н.Н.","id":"126638","type":"group"},{"label":"Прокофьев В.И.","id":"84626","type":"group"},{"label":"Пропп Ю.В.","id":"126785","type":"group"},{"label":"Русакова М.Б.","id":"81088","type":"group"},{"label":"Рябкин М.С.","id":"102324","type":"group"},{"label":"Сакиев В.Д.","id":"126620","type":"group"},{"label":"Салыев Р.Г.","id":"90232","type":"group"},{"label":"Сафонов А.В.","id":"80196","type":"group"},{"label":"Семенова Н.Р.","id":"80187","type":"group"},{"label":"Синюхин А.А.","id":"80175","type":"group"},{"label":"Синюхин А.(инженер)","id":"90213","type":"group"},{"label":"Сиротина Н.С.","id":"99234","type":"group"},{"label":"Славина М.Г.","id":"80176","type":"group"},{"label":"Смирнов Ю.Е.","id":"90237","type":"group"},{"label":"Соколова О.В.","id":"90225","type":"group"},{"label":"Соколов С.В.","id":"126954","type":"group"},{"label":"Соловов А.В.","id":"127016","type":"group"},{"label":"Солошина О.В.","id":"90223","type":"group"},{"label":"Старкова Н.В.","id":"98819","type":"group"},{"label":"Суворова С.В.","id":"80185","type":"group"},{"label":"Сырятова Ю.А.","id":"81843","type":"group"},{"label":"Сюкасев С.Е.","id":"78324","type":"group"},{"label":"Тарновская М.М.","id":"80158","type":"group"},{"label":"Тестовый-Закупки","id":"90222","type":"group"},{"label":"Токарева Г.Р.","id":"126636","type":"group"},{"label":"Топоркова Р.Р.","id":"126994","type":"group"},{"label":"Топорков М.П.","id":"126916","type":"group"},{"label":"Топочканова Н.С.","id":"98060","type":"group"},{"label":"Тоткайло Н.Ю.","id":"91398","type":"group"},{"label":"Турушев А.А.","id":"90221","type":"group"},{"label":"Устинова И.А.","id":"80172","type":"group"},{"label":"Устинов Д.Н.","id":"82042","type":"group"},{"label":"Учанов В.Е.","id":"127006","type":"group"},{"label":"Федина И.В.","id":"91391","type":"group"},{"label":"Федотов В.В.","id":"90236","type":"group"},{"label":"Чахутин Д.Н.","id":"98623","type":"group"},{"label":"Черепанова Н.В.","id":"100178","type":"group"},{"label":"Черненькая Ж.С.","id":"90239","type":"group"},{"label":"Чижов А.С.","id":"80182","type":"group"},{"label":"Шабалдин А.В.","id":"90233","type":"group"},{"label":"Шапа А.Г.","id":"80178","type":"group"},{"label":"Шевелёв А.Г.","id":"96626","type":"group"},{"label":"Шония М.Ю.","id":"90219","type":"group"},{"label":"Шустов А.Ю.","id":"127038","type":"group"},{"label":"Щебетаха Д.В.","id":"118836","type":"group"},{"label":"Щербакова Н.К.","id":"80171","type":"group"},{"label":"Экономист Маг.ЦОВД","id":"120248","type":"group"}];
+        var organizationsEl = $("#organizations");
+        var logins =  $('#logins');
+        organizationsEl.autocomplete({
+            source: function(request, response) {
+                var results = $.ui.autocomplete.filter(availableOrganizations, request.term);
+                response(results.slice(0, 10));
+            },
+            minLength: 0,
+            disabled: true,
+            select: function (event, ui) {
+                var item_value = (ui.item.id > 0) ? $.trim(ui.item.value) : '';
+                $("#selected_organization").text(item_value);
+                $("#group_id").val(ui.item.id);
+                $("#surname_clear").trigger('click');
+                logins.focus().click();
+                $('#user_id').val('');
+                select_group(ui.item.id);
+            },
+            close: function (event, ui) {
+                if (organizationsEl.val().length > 20)
+                    organizationsEl.selectRange(0, 0);
+                $('.openedList').removeClass('openedList');
+            },
+            search: function () {
+                var group_id = $('#group_id').val();
+                var org_name = organizationsEl.val();
+
+                //Если все пустое, то очищаем имя и ищем заново
+                if (group_id == 0 && org_name == '') {
+                    organizationsEl.val('').focus();
+                }
+            },
+            open: function(){
+                $(this).closest('div').addClass('openedList');
+            }
+        }).autocomplete( "widget" ).addClass( "organisations" );
+        organizationsEl.on('keyup', function () {
+            $(this).autocomplete('enable')
+        });
+
+        $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+            var link = '';
+            item.label = escapeString(item.label);
+            return $("<li></li>")
+                .data("item.autocomplete", item)
+                .append('<a ' + link + '>' + $.trim(item.label) + '</a>')
+                .appendTo(ul);
+        };
+
+        logins.autocomplete({
+            source: function(request, response) {
+                var results = $.ui.autocomplete.filter(availableLogins, request.term);
+                response(results.slice(0, 10));
+            },
+            minLength: 0,
+            disabled: true,
+            select: function (event, ui) {
+                $("#user_id").val(ui.item.id);
+                $('#password_input').focus().click();
+            },
+            close: function(){
+                $('.openedList').removeClass('openedList');
+            },
+            open: function(){
+                $(this).closest('div').addClass('openedList');
+            }
+        }).autocomplete( "widget" ).addClass( "logins" );
+        logins.on('keyup', function () {
+            $(this).autocomplete('enable')
+        });
+
+        $('.btn_enter').click(function () {
+                        var action = '/auth.php', pref = '?';
+            
+            action += ($('#group_id').val() != '0') ? pref + 'group_id=' + $('#group_id').val() : '';
+            $('#login_form').attr('action', action);
+        });
+
+        $('#organization_show').click(function (e) {
+            e.stopPropagation();
+            organizationsEl.autocomplete('enable');
+            if ($('.ui-autocomplete.organisations').is(':visible')){
+                organizationsEl.autocomplete('close');
+            } else {
+                logins.autocomplete('close');
+                organizationsEl.autocomplete("search", "");
+            }
+        });
+
+        $('#login_show').click(function (e) {
+            e.stopPropagation();
+            logins.autocomplete('enable');
+            if ($('.ui-autocomplete.logins').is(':visible')){
+                logins.autocomplete('close');
+            } else {
+                organizationsEl.autocomplete('close');
+                logins.autocomplete("search", "");
+            }
+        });
+
+
+        $('#organizations, #logins').focus(function(){
+            $(this).siblings('b').css('background-color','#009cdb');
+        });
+
+        $('#organizations, #logins').blur(function(){
+            $(this).siblings('b').css('background-color','#b0b0b0');
+        });
+
+        jQuery(function($){
+            $(document).mouseup(function (e){
+                var div = $(".ui-autocomplete, .show_list");
+                if (!div.is(e.target) && div.has(e.target).length === 0) {
+                    $('#organizations').autocomplete('close');
+                    $('#logins').autocomplete('close');
+                }
+            });
+        });
+
+        //стираем все при фокусе
+        $('#organizations, #logins, #password_input').live('click', function () {
+            $(this).val('');
+            $(this).parent().find('input[type="hidden"]').val('');
+        });
+
+        // возвращаем -- выберите -- если ничего не поменяли и не выбрали
+        organizationsEl.live('blur', function () {
+            if ($('#group_id').val() == 0) {
+                $('#organizations').val('-- выберите --');
+            }
+        });
+    });
+    </script>
+
+<div id="container">
+
+    <div class="inner">
+
+        <div id="header">
+            <img src="./Электронный документооборот_files/logo-modern-lefttop.svg" style="width: 100px">
+        </div>
+
+        <div class="form">
+            <form method="post" name="login_form" id="login_form" action="https://doc.matfmc.ru/auth.php?uri=%2F&amp;DNSID=wuvrX7Vz3Wp-oyW69vTvLTQ"><input type="hidden" name="DNSID" value="wuvrX7Vz3Wp-oyW69vTvLTQ">
+
+                            <table cellpadding="0" cellspacing="0" border="0" class="login-table">
+                    <tbody><tr>
+                        <td colspan="2">
+                            <h2 class="text_to_center">Авторизация</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text_to_center inputData">
+                            Пожалуйста, введите ваши данные для входа в систему:
+                            <br>
+                            Техническая поддержка: 8(499)110-80-82, mskdoc.support@tatar.ru
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Организация:</p>
+                        </td>
+                        <td class="col2">
+                            <div class="inp_org_container">
+                                <input id="organizations" class="autocomplete_input ui-autocomplete-input" type="text" placeholder="Организация" value="Филиал «Аэронавигация Урала»" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible">10 results are available, use up and down arrow keys to navigate.</span>
+                                <input type="hidden" name="group_id" id="group_id" value="33137">
+                                <b class="show_list" id="organization_show" style="background-color: rgb(176, 176, 176);"></b>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Сотрудник:</p>
+                        </td>
+                        <td class="col2">
+                            <div class="inp_logins_container">
+                                <input id="logins" class="autocomplete_input has_placeholder ui-autocomplete-input" type="text" placeholder="Логин" value="Черненькая Ж.С." name="login" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible">10 results are available, use up and down arrow keys to navigate.</span>
+                                <input type="hidden" name="user_id" id="user_id" value="90239">
+                                <input type="text" style="display:none;" name="login">
+                                <b class="show_list" id="login_show"></b>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Пароль:</p>
+                        </td>
+                        <td class="col2">
+                            <div class="inp_psw_container">
+                                <div class="password-container">
+                                    <div class="password-cell">
+                                        <input id="password_input" type="password" length="10" placeholder="Пароль" class="has_placeholder" name="password">
+                                    </div>
+                                    <div class="password-cell">
+                                        <a href="javascript:coverManager.show()" class="passwordRecovery">Восстановление
+                                            пароля</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="errors-field"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="ipAdr"><b>Ваш IP: 192.168.200.99</b></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Вход" class="btn_enter">
+                            <input type="hidden" name="x" value="1">
+                        </td>
+                    </tr>
+                </tbody></table>
+                        </form>
+<script language="javascript" type="text/javascript"><!--
+var login_form_NoCheck = false
+function login_form_CheckOff() { login_form_NoCheck=true }
+ function login_form_Submit() { return true; }
+//--></script>
+
+        </div>
+    </div>
+</div>
+
+<!-- НАЧАЛО всплавающий блок памятки восстановления пароля -->
+<div class="cover" id="cover" style="display: none">
+    <div class="cover-win">
+        <div class="cover-title">
+            Памятка
+        </div>
+        <div class="cover-subtitle">
+            для восстановления доступа
+        </div>
+        <div class="cover-win-close" onclick="coverManager.hide()">
+            <img src="./Электронный документооборот_files/cover-close.png" width="31" height="31" alt="Закрыть">
+        </div>
+        <div class="cover-blank">
+            <div class="cover-blank-text">
+                Для восстановления доступа
+                пользователя необходимо направить
+                <div class="cover-blank-highlight">
+                    официальное письмо
+                </div>
+                на фирменном бланке Вашей организации за подписью
+                Руководителя или уполномоченного представителя
+                на имя Службы Технической Поддержки
+            </div>
+        </div>
+        <div class="cover-desc">
+            <div class="cover-desc-row">
+                В тексте письма следует указать:
+            </div>
+            <div class="cover-desc-row">
+                <ul class="cover-list">
+                    <li class="cover-list-item">
+                        ФИО (полностью) сотрудника, которому
+                        нужно восстановить доступ
+                    </li>
+                    <li class="cover-list-item">
+                        Адрес электронной почты (рабочий), по
+                        которому следует сообщить новые данные
+                        для входа в систему
+                    </li>
+                </ul>
+            </div>
+            <div class="cover-desc-row">
+                Письмо Вы можете отправить по системе
+                электронного документооборота
+            </div>
+        </div>
+        <div class="cover-foot">
+            <div class="cover-foot-wrap">
+                <div class="cover-phones">
+                    <div>Техническая поддержка:</div>
+                    <div>8(499)110-80-82</div>
+                    <div>mskdoc.support@tatar.ru</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cover-backdrop"></div>
+</div>
+<!-- КОНЕЦ всплавающий блок памятки восстановления пароля -->
+<script type="text/javascript">
+
+    function select_group(group_id) {
+        if (group_id > 0) {
+            $.ajax({
+                type: "POST",
+                url: window.location,
+                data: {gid: group_id},
+                success: function (data) {
+                    $("#logins").autocomplete({
+                        source: data,
+                        minLength: 0,
+                        select: function (event, ui) {
+                            $("#user_id").val(ui.item.id);
+                            $('#password_input').focus().click();
+                        }
+                    })
+                },
+                dataType: "json"
+            });
+        }
+    }
+
+    var p = document.getElementById('password');
+    if (p)
+        p.focus();
+
+    //чистим sessionStorage от предыдущего пользователя
+    sessionStorage.clear();
+</script>
+
+<div id="d_submenu" style="padding: 5px 15px 5px 15px;border:1px solid black; background-color: #D5DEF0; position:absolute; z-index: 21; display: none;">Sub menu</div><div id="resolutionPopup" class="axUIPopup"></div><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all organisations UI_List_organizations" id="ui-id-1" tabindex="0" style="z-index: 1; display: none; width: 328px; top: 393.484px; left: 834.594px;" aria-disabled="false"><li class="ui-menu-item" role="presentation"><a id="ui-id-13" class="ui-corner-all" tabindex="-1"></a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-14" class="ui-corner-all" tabindex="-1">Алтайский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-15" class="ui-corner-all" tabindex="-1">Анадырский центр ОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-16" class="ui-corner-all" tabindex="-1">Архангельский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-17" class="ui-corner-all" tabindex="-1">Астраханский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-18" class="ui-corner-all" tabindex="-1">Батагайский центр ОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-19" class="ui-corner-all" tabindex="-1">Башкирский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-20" class="ui-corner-all" tabindex="-1">Белгородский ЦОВД</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-21" class="ui-corner-all" tabindex="-1">Белоярское отделение</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-22" class="ui-corner-all" tabindex="-1">Березовское отделение</a></li></ul><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all logins UI_List_logins" id="ui-id-2" tabindex="0" style="z-index: 1; display: none; width: 328px; top: 428.484px; left: 834.594px;" aria-disabled="false"><li class="ui-menu-item" role="presentation"><a id="ui-id-3" class="ui-corner-all" tabindex="-1">Автамонов М.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-4" class="ui-corner-all" tabindex="-1">Агеенко О.В.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-5" class="ui-corner-all" tabindex="-1">Аникин Д.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-6" class="ui-corner-all" tabindex="-1">Арнаутов А.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-7" class="ui-corner-all" tabindex="-1">Баженов А.С.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-8" class="ui-corner-all" tabindex="-1">Баранов А.Р.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-9" class="ui-corner-all" tabindex="-1">Баринберг И.К.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-10" class="ui-corner-all" tabindex="-1">Бачило В.С.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-11" class="ui-corner-all" tabindex="-1">Белкин А.А.</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-12" class="ui-corner-all" tabindex="-1">Белова О.В.</a></li></ul><div data-v-a56fdf46="" data-v-08510fe8="" class="v-business-card" style="display: none;"><div data-v-a56fdf46="" class="v-business-card__content"><div data-v-08510fe8="" class="business-card__info"><div data-v-08510fe8="" class="business-card__section"><span data-v-08510fe8="" class="business-card__subtitle">Тип уведомления: </span>
+            
+        </div> <div data-v-08510fe8="" class="business-card__section"><span data-v-08510fe8="" class="business-card__subtitle">Дата отправки: </span>
+            
+        </div> <div data-v-08510fe8="" class="business-card__section"><span data-v-08510fe8="" class="business-card__subtitle">Кем направлено: </span>
+             ()
+        </div> <div data-v-08510fe8="" class="business-card__section"><span data-v-08510fe8="" class="business-card__subtitle">Способ отправки: </span>
+            
+        </div></div></div></div><div id="gadsf21g"><div></div></div></body></html>
